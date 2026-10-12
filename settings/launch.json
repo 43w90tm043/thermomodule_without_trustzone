@@ -1,0 +1,78 @@
+{
+   "configurations" : [
+      {
+         "args" : [],
+         "download" : {
+            "deviceMacros" : [
+               "$TOOLKIT_DIR$/config/debugger/ST/STM32U3xx.dmac",
+               "$TOOLKIT_DIR$/config/debugger/ST/STM32U3xx_DBG.dmac",
+               "$TOOLKIT_DIR$/config/debugger/ST/STM32U3xx_OB.dmac",
+               "$TOOLKIT_DIR$/config/debugger/ST/STM32U3xx_TRACE.dmac"
+            ],
+            "flashLoader" : "$TOOLKIT_DIR$/config/flashloader/ST/FlashSTM32U3xxxG.board",
+            "performMassErase" : false,
+            "suppressAllDownloads" : false,
+            "suppressProgramDownload" : false,
+            "verifyAllDownloads" : false
+         },
+         "driver" : "ST-LINK",
+         "driverOptions" : [
+            "--endian=little",
+            "--cpu=Cortex-M33.no_se",
+            "--fpu=VFPv5_SP",
+            "-p",
+            "$TOOLKIT_DIR$/config/debugger/ST/STM32U385CG.ddf",
+            "--semihosting",
+            "--device=STM32U385CG",
+            "--drv_interface=SWD",
+            "--stlink_reset_strategy=0,2",
+            "--drv_swo_clock_setup=96000000,1,2000000",
+            "--drv_catch_exceptions=0x000",
+            "--drv_debug_ap=0",
+            "--stlink_probe=stlinkv2"
+         ],
+         "handleCRunEvents" : true,
+         "leaveTargetRunning" : false,
+         "name" : "thermomodule_without_trustzone - Debug",
+         "plugins" : [],
+         "program" : "$PROJ_DIR$/Debug/Exe/thermomodule_without_trustzone.out",
+         "projectPath" : "C:\\Documents\\IAREWARM\\thermomodule_without_trustzone\\thermomodule_without_trustzone.ewp",
+         "request" : "launch",
+         "setupMacros" : [],
+         "stopOnSymbol" : "main",
+         "target" : "arm",
+         "type" : "cspy",
+         "workbenchPath" : "C:\\iar\\ewarm-10.10.2"
+      },
+      {
+         "args" : [],
+         "download" : {
+            "deviceMacros" : [],
+            "performMassErase" : false,
+            "suppressAllDownloads" : false,
+            "suppressProgramDownload" : false,
+            "verifyAllDownloads" : false
+         },
+         "driver" : "Simulator",
+         "driverOptions" : [
+            "--endian=little",
+            "--cpu=Cortex-M3",
+            "--fpu=None",
+            "--semihosting=none",
+            "--multicore_nr_of_cores=1"
+         ],
+         "handleCRunEvents" : false,
+         "leaveTargetRunning" : false,
+         "name" : "thermomodule_without_trustzone - Release",
+         "plugins" : [],
+         "program" : "$PROJ_DIR$/Release/Exe/thermomodule_without_trustzone.out",
+         "projectPath" : "C:\\Documents\\IAREWARM\\thermomodule_without_trustzone\\thermomodule_without_trustzone.ewp",
+         "request" : "launch",
+         "setupMacros" : [],
+         "stopOnSymbol" : "main",
+         "target" : "arm",
+         "type" : "cspy",
+         "workbenchPath" : "C:\\iar\\ewarm-10.10.2"
+      }
+   ]
+}

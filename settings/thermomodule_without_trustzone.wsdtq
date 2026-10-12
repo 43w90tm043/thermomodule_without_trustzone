@@ -1,0 +1,177 @@
+<?xml version="1.0"?>
+<Workspace>
+    <WindowStorage>
+        <WIN_DEBUG_LOG>
+            <col-names>
+                <item>_I0</item>
+                <item>Log</item>
+            </col-names>
+            <col-widths>
+                <item>20</item>
+                <item>1891</item>
+            </col-widths>
+            <DebugLogLevel>2</DebugLogLevel>
+            <LiveFile>$PROJ_DIR$\DebugLog.log</LiveFile>
+            <LiveLogEnabled>0</LiveLogEnabled>
+            <LiveFilterLevel>0</LiveFilterLevel>
+        </WIN_DEBUG_LOG>
+        <WIN_WORKSPACE>
+            <col-names>
+                <item>Files</item>
+                <item>_I1</item>
+            </col-names>
+            <col-widths>
+                <item>261</item>
+                <item>20</item>
+            </col-widths>
+            <NodeDict>
+                <ExpandedNode></ExpandedNode>
+                <ExpandedNode>thermomodule_without_trustzone</ExpandedNode>
+                <ExpandedNode>thermomodule_without_trustzone/Output</ExpandedNode>
+                <ExpandedNode>thermomodule_without_trustzone/application</ExpandedNode>
+                <ExpandedNode>thermomodule_without_trustzone/middleware</ExpandedNode>
+            </NodeDict>
+        </WIN_WORKSPACE>
+        <WIN_BUILD>
+            <col-names>
+                <item>_I0</item>
+                <item>Messages</item>
+                <item>File</item>
+                <item>Line</item>
+            </col-names>
+            <col-widths>
+                <item>20</item>
+                <item>1602</item>
+                <item>234</item>
+                <item>40</item>
+            </col-widths>
+            <BuildLogLevel>2</BuildLogLevel>
+            <LiveFile>$WS_DIR$\BuildLog.log</LiveFile>
+            <LiveLogEnabled>0</LiveLogEnabled>
+            <LiveFilterLevel>0</LiveFilterLevel>
+        </WIN_BUILD>
+        <TextEditorStorage>
+            <FindReplaceHistory>
+                <SearchTerms>
+                    <item>factory_p</item>
+                    <item>factory_point</item>
+                    <item>factory_point = {-1.201484</item>
+                    <item>POWER</item>
+                    <item>reg::power, static_cast&lt;uint8_t</item>
+                    <item>zero_check_volts_ </item>
+                    <item>stop</item>
+                    <item>calibrate</item>
+                    <item>[[nodiscard]] static error calibrate(command c) noexcept
+{
+    if (const error e = guard_idle(); e != error::ok) { return e; }
+    if (const error e = start_conversion_raw(); e != error::ok) { return e; }
+
+    const uint32_t period = conversion_period_ms(cfg_.dr);
+
+    if (const error e = command_raw(c); e != error::ok) { return e; }
+
+    // A stale "ready" from before the command must not count as completion:
+    // let it go inactive first, then wait for the next falling edge.
+    const uint32_t t0 = now_ms();
+    while (is_data_ready())
+    {
+        if (now_ms() - t0 &gt;= 2U * period + 50U) { break; }
+    }
+
+    if (!wait_drdy(period * 40U + 200U)) { return error::timeout; }  // 16.2 s at 2.5 SPS
+
+    swo::out &lt;&lt; "cal done ms=" &lt;&lt; (now_ms() - t0) &lt;&lt; "\r\n";  // expect ~9200
+    return error::ok;
+}</item>
+                    <item>const auto o0 = Adc::read_register(R::ofcal0);
+</item>
+                    <item>OFCAL</item>
+                    <item>OFCAL0</item>
+                    <item>self_offset_calibration</item>
+                    <item>static error check_ofcal</item>
+                    <item>error calibrate</item>
+                    <item>check_offset_calibration</item>
+                    <item>static pt1000_error measure_rref</item>
+                    <item>    float rref_known_ohms = 0.0F; // 0 = использовать измеренное; иначе значение с мультиметра</item>
+                    <item>cc.factory_point</item>
+                    <item>cc.factory_point   = std::nullopt</item>
+                </SearchTerms>
+                <ReplaceTerms />
+            </FindReplaceHistory>
+        </TextEditorStorage>
+        <WIN_CMAKE_CMSIS_LOG />
+        <WIN_CSTAT_WINDOW>
+            <col-names>
+                <item>Message</item>
+                <item>Rule</item>
+                <item>Severity</item>
+                <item>Line</item>
+            </col-names>
+            <col-widths>
+                <item>500</item>
+                <item>200</item>
+                <item>100</item>
+                <item>100</item>
+            </col-widths>
+        </WIN_CSTAT_WINDOW>
+        <ideStateOnline>%00%00%00%FF%00%00%00%00%FD%00%00%00%03%00%00%00%00%00%00%01-%00%00%02%F3%FC%02%00%00%00%02%FB%00%00%00%1A%00W%00I%00N%00_%00W%00O%00R%00K%00S%00P%00A%00C%00E%01%00%00%00%40%00%00%01%FA%00%00%00%A3%00%FF%FF%FF%FB%00%00%00%1C%00W%00I%00N%00_%00C%00A%00L%00L%00_%00S%00T%00A%00C%00K%01%00%00%02%3E%00%00%00%F5%00%00%00%83%00%FF%FF%FF%00%00%00%01%00%00%02%5D%00%00%02%F3%FC%02%00%00%00%04%FC%00%00%00%40%00%00%02%F3%00%00%00%00%00%FF%FF%FF%FA%00%00%00%00%02%00%00%00%03%FB%00%00%00%10%00W%00I%00N%00_%00A%00U%00T%00O%00%00%00%00%00%FF%FF%FF%FF%00%00%00%00%00%00%00%00%FB%00%00%00%14%00W%00I%00N%00_%00L%00O%00C%00A%00L%00S%00%00%00%00%00%FF%FF%FF%FF%00%00%00%00%00%00%00%00%FB%00%00%00%16%00W%00I%00N%00_%00W%00A%00T%00C%00H%00_%001%00%00%00%00%00%FF%FF%FF%FF%00%00%00%00%00%00%00%00%FC%00%00%00%40%00%00%02%F3%00%00%00%A3%00%FF%FF%FF%FA%00%00%00%02%01%00%00%00%03%FB%00%00%00%1C%00W%00I%00N%00_%00P%00R%00O%00F%00I%00L%00I%00N%00G%002%00%00%00%00%00%FF%FF%FF%FF%00%00%00%00%00%00%00%00%FB%00%00%00%24%00W%00I%00N%00_%00T%00I%00M%00E%00L%00I%00N%00E%00_%00G%00R%00A%00P%00H%00%00%00%00%00%FF%FF%FF%FF%00%00%00%00%00%00%00%00%FB%00%00%00%16%00W%00I%00N%00_%00T%00E%00R%00M%00_%00I%00O%01%00%00%05%E8%00%00%01%98%00%00%00l%00%FF%FF%FF%FB%00%00%00%1E%00W%00I%00N%00_%00D%00I%00S%00A%00S%00S%00E%00M%00B%00L%00Y%00%00%00%02%5E%00%00%00%D5%00%00%00%00%00%00%00%00%FB%00%00%00%20%00W%00I%00N%00_%00S%00T%00A%00T%00I%00C%00_%00W%00A%00T%00C%00H%00%00%00%02%83%00%00%00%B0%00%00%00%00%00%00%00%00%00%00%00%03%00%00%07%80%00%00%00%9C%FC%01%00%00%00%02%FC%00%00%00%00%00%00%00%7F%00%00%00%00%00%FF%FF%FF%FA%FF%FF%FF%FF%01%00%00%00%02%FB%00%00%00%12%00W%00I%00N%00_%00B%00U%00I%00L%00D%00%00%00%00%00%FF%FF%FF%FF%00%00%00%2F%00%00%00%2F%FB%00%00%00%20%00W%00I%00N%00_%00C%00S%00T%00A%00T%00_%00W%00I%00N%00D%00O%00W%00%00%00%00%00%FF%FF%FF%FF%00%00%00%2F%00%00%00%2F%FC%00%00%00%00%00%00%07%80%00%00%00%7F%00%FF%FF%FF%FA%00%00%00%01%02%00%00%00%02%FB%00%00%00%1A%00W%00I%00N%00_%00D%00E%00B%00U%00G%00_%00L%00O%00G%01%00%00%00%00%FF%FF%FF%FF%00%00%00%83%00%FF%FF%FF%FB%00%00%00%28%00W%00I%00N%00_%00E%00X%00C%00E%00P%00T%00I%00O%00N%00_%00V%00I%00E%00W%00E%00R%01%00%00%037%00%00%00%9C%00%00%00%83%00%FF%FF%FF%00%00%03%EE%00%00%02%F3%00%00%00%04%00%00%00%04%00%00%00%08%00%00%00%08%FC%00%00%00%01%00%00%00%02%00%00%00%03%00%00%00%18%00M%00a%00i%00n%00%20%00T%00o%00o%00l%00b%00a%00r%01%00%00%00%00%FF%FF%FF%FF%00%00%00%00%00%00%00%00%00%00%00%1A%00D%00e%00b%00u%00g%00%20%00T%00o%00o%00l%00b%00a%00r%01%00%00%02%12%FF%FF%FF%FF%00%00%00%00%00%00%00%00%00%00%00%1A%00T%00r%00a%00c%00e%00%20%00T%00o%00o%00l%00b%00a%00r%01%00%00%03b%FF%FF%FF%FF%00%00%00%00%00%00%00%00</ideStateOnline>
+        <ideStateOffline>%00%00%00%FF%00%00%00%00%FD%00%00%00%03%00%00%00%00%00%00%01%22%00%00%02%C4%FC%02%00%00%00%02%FB%00%00%00%1A%00W%00I%00N%00_%00W%00O%00R%00K%00S%00P%00A%00C%00E%01%00%00%00%40%00%00%02%C4%00%00%00%A3%00%FF%FF%FF%FB%00%00%00%1C%00W%00I%00N%00_%00C%00A%00L%00L%00_%00S%00T%00A%00C%00K%00%00%00%02W%00%00%00%AD%00%00%00%00%00%00%00%00%00%00%00%01%00%00%00l%00%00%02%C4%FC%02%00%00%00%04%FB%00%00%00%20%00W%00I%00N%00_%00S%00T%00A%00T%00I%00C%00_%00W%00A%00T%00C%00H%00%00%00%00%40%00%00%00%17%00%00%00%00%00%00%00%00%FB%00%00%00%16%00W%00I%00N%00_%00T%00E%00R%00M%00_%00I%00O%00%00%00%00%40%00%00%02%C4%00%00%00%00%00%00%00%00%FB%00%00%00%1E%00W%00I%00N%00_%00D%00I%00S%00A%00S%00S%00E%00M%00B%00L%00Y%00%00%00%01U%00%00%01%BE%00%00%00%00%00%00%00%00%FB%00%00%00%1C%00W%00I%00N%00_%00P%00R%00O%00F%00I%00L%00I%00N%00G%002%00%00%00%00%40%00%00%02%D3%00%00%00%00%00%00%00%00%00%00%00%03%00%00%07%80%00%00%00%CB%FC%01%00%00%00%02%FC%00%00%00%00%00%00%07%80%00%00%00%7F%00%FF%FF%FF%FA%00%00%00%00%01%00%00%00%03%FB%00%00%00%12%00W%00I%00N%00_%00B%00U%00I%00L%00D%01%00%00%00%00%00%00%07%80%00%00%00l%00%FF%FF%FF%FB%00%00%00%20%00W%00I%00N%00_%00C%00S%00T%00A%00T%00_%00W%00I%00N%00D%00O%00W%01%00%00%00%00%FF%FF%FF%FF%00%00%00l%00%FF%FF%FF%FB%00%00%00%1A%00W%00I%00N%00_%00D%00E%00B%00U%00G%00_%00L%00O%00G%01%00%00%00%00%FF%FF%FF%FF%00%00%00l%00%FF%FF%FF%FB%00%00%00%28%00W%00I%00N%00_%00E%00X%00C%00E%00P%00T%00I%00O%00N%00_%00V%00I%00E%00W%00E%00R%00%00%00%060%00%00%01P%00%00%00%00%00%00%00%00%00%00%06Z%00%00%02%C4%00%00%00%04%00%00%00%04%00%00%00%08%00%00%00%08%FC%00%00%00%01%00%00%00%02%00%00%00%02%00%00%00%18%00M%00a%00i%00n%00%20%00T%00o%00o%00l%00b%00a%00r%01%00%00%00%00%FF%FF%FF%FF%00%00%00%00%00%00%00%00%00%00%00%1A%00D%00e%00b%00u%00g%00%20%00T%00o%00o%00l%00b%00a%00r%00%00%00%00%00%FF%FF%FF%FF%00%00%00%00%00%00%00%00</ideStateOffline>
+        <ideGeometry>%01%D9%D0%CB%00%03%00%00%00%00%00%00%FF%FF%FF%F8%00%00%07%7F%00%00%04%07%00%00%00.%00%00%00%A7%00%00%05%E6%00%00%03%EF%00%00%00%00%02%00%00%00%07%80%00%00%00%00%00%00%00%17%00%00%07%7F%00%00%04%07</ideGeometry>
+        <ideWindowRect>46,167,1465,841</ideWindowRect>
+    </WindowStorage>
+    <Configuration>
+        <CurrentConfigs>
+            <ProjConf>thermomodule_without_trustzone/Debug</ProjConf>
+        </CurrentConfigs>
+    </Configuration>
+    <TextViewStorage>
+        <numberOfDocGroups>1</numberOfDocGroups>
+        <currentDocumentGroup>0</currentDocumentGroup>
+        <group0>
+            <numberOfTabs>1</numberOfTabs>
+            <currentTextView>0</currentTextView>
+            <tab0>
+                <editorTabType>scintillaTab</editorTabType>
+                <file>$WS_DIR$\main.cpp</file>
+                <splitted>0</splitted>
+                <splitOrientation>horizontal</splitOrientation>
+                <splitterSizes>
+                    <item>0</item>
+                    <item>0</item>
+                    <item>0</item>
+                    <item>-1</item>
+                    <item>0</item>
+                    <item>0</item>
+                    <item>0</item>
+                    <item>1</item>
+                    <item>0</item>
+                    <item>0</item>
+                    <item>0</item>
+                    <item>1</item>
+                    <item>0</item>
+                    <item>0</item>
+                    <item>0</item>
+                    <item>-64</item>
+                    <item>1</item>
+                    <item>-1</item>
+                    <item>-1</item>
+                    <item>-1</item>
+                    <item>-1</item>
+                    <item>1</item>
+                    <item>0</item>
+                    <item>0</item>
+                    <item>0</item>
+                    <item>2</item>
+                    <item>0</item>
+                </splitterSizes>
+                <firstVisibleLine>428</firstVisibleLine>
+                <xOffset>0</xOffset>
+                <selectionStart>12642</selectionStart>
+                <selectionEnd>12642</selectionEnd>
+                <foldedLines />
+                <checksum>3976712718</checksum>
+            </tab0>
+        </group0>
+    </TextViewStorage>
+    <VisibleWindows>WIN_BUILD WIN_CSTAT_WINDOW WIN_DEBUG_LOG WIN_WORKSPACE</VisibleWindows>
+</Workspace>

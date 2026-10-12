@@ -1,0 +1,271 @@
+###############################################################################
+#
+# IAR ELF Linker V9.70.4.588/W64 for ARM                  11/Jun/2026  07:48:04
+# Copyright 2007-2026 IAR Systems AB.
+#
+#    Output file                  =
+#        C:\Users\PC\Documents\IAREWARM\thermomodule_with_trustzone\Secure\Secure_nsclib\Secure.out
+#    Map file                     =
+#        C:\Users\PC\Documents\IAREWARM\thermomodule_with_trustzone\Secure\Debug\List\Secure.map
+#    Import CMSE library file out =
+#        C:\Users\PC\Documents\IAREWARM\thermomodule_with_trustzone\Secure\Secure_nsclib\Secure_import_lib.o
+#    Command line                 =
+#        -f
+#        C:\Users\PC\Documents\IAREWARM\thermomodule_with_trustzone\Secure\Secure_nsclib\Secure.out.rsp
+#        (C:\Users\PC\Documents\IAREWARM\thermomodule_with_trustzone\Secure\Debug\Obj\startup_stm32u385xx.o
+#        C:\Users\PC\Documents\IAREWARM\thermomodule_with_trustzone\Secure\Debug\Obj\system_stm32u3xx_s.o
+#        --no_out_extension -o
+#        C:\Users\PC\Documents\IAREWARM\thermomodule_with_trustzone\Secure\Secure_nsclib\Secure.out
+#        --printf_multibytes --scanf_multibytes --map
+#        C:\Users\PC\Documents\IAREWARM\thermomodule_with_trustzone\Secure\Debug\List\Secure.map
+#        --config
+#        C:\Users\PC\Documents\IAREWARM\thermomodule_with_trustzone\Secure\CMSIS\stm32u385xx_flash_s.icf
+#        --debug_heap --semihosting --entry __iar_program_start --redirect
+#        __iar_sh_stdout=__iar_sh_stdout_swo --inline
+#        --merge_duplicate_sections --vfe=forced --text_out locale
+#        --import_cmse_lib_out
+#        C:\Users\PC\Documents\IAREWARM\thermomodule_with_trustzone\Secure\Secure_nsclib\Secure_import_lib.o
+#        --cpu=Cortex-M33 --fpu=VFPv5_sp) --diagnostics_format=sarif_stdout
+#        --dependencies=n
+#        C:\Users\PC\Documents\IAREWARM\thermomodule_with_trustzone\Secure\Secure_nsclib\Secure.out.iar_deps
+#        --dynamic_output
+#        C:\Users\PC\Documents\IAREWARM\thermomodule_with_trustzone\Secure\Secure_nsclib\Secure.out.iar_dynout
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor        = *
+__CPP_Exceptions = Disabled
+__CPP_Language   = C++14
+__CPP_Library    = libc++
+__CPP_Runtime    = 1
+__SystemLibrary  = DLib
+__dlib_version   = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The debug heap was selected because of --debug_heap.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at address 0xc00'0000 {  ro section .intvec };
+"P1":  place in [from 0xc00'0000 to 0xc07'dfff] {  ro };
+"P2":  place in [from 0xc07'e000 to 0xc07'ffff] {  section Veneer$$CMSE };
+define block CSTACK with size = 1K, alignment = 8 { };
+define block HEAP with size = 512, alignment = 8 { };
+"P3":  place in [from 0x3000'0000 to 0x3001'7fff] {
+           rw,  block CSTACK,  block HEAP };
+initialize by copy {  rw };
+
+  Section            Kind         Address  Alignment   Size  Object
+  -------            ----         -------  ---------   ----  ------
+"A0":                                                 0x234
+  .intvec            ro code   0xc00'0000          4  0x234  startup_stm32u385xx.o [1]
+                             - 0xc00'0234             0x234
+
+"P1":                                                 0x4c8
+  .text              ro code   0xc00'0234          4  0x390  system_stm32u3xx_s.o [1]
+  .text              ro code   0xc00'05c4          2   0x2a  copy_init3.o [4]
+  .rodata            const     0xc00'05ee               0x1  unwind_debug.o [5]
+  .text              ro code   0xc00'05f0          4   0x28  data_init.o [4]
+  .text              ro code   0xc00'0618          4   0x22  fpinit_M.o [3]
+  .text              ro code   0xc00'063c          4   0x22  cmain.o [4]
+  .text              ro code   0xc00'065e          2    0x4  exit.o [2]
+  .text              ro code   0xc00'0664          4    0x4  cexit.o [4]
+  .text              ro code   0xc00'0668          4    0xa  cexit_2.o [4]
+  .text              ro code   0xc00'0674          4   0x14  exit.o [5]
+  .iar.init_table    const     0xc00'0688          4   0x14  - Linker created -
+  .text              ro code   0xc00'069c          4   0x1e  cstartup_M.o [4]
+  .text              ro code   0xc00'06bc          4   0x1c  startup_stm32u385xx.o [1]
+  .rodata            const     0xc00'06d8          4   0x10  system_stm32u3xx_s.o [1]
+  Initializer bytes  const     0xc00'06e8          4   0x10  <for P3-1>
+  .text              ro code   0xc00'06f8          2    0x4  startup_stm32u385xx.o [1]
+  .rodata            const     0xc00'06fc               0x0  copy_init3.o [4]
+                             - 0xc00'06fc             0x4c8
+
+"P2", part 1 of 2:                                     0x20
+  Veneer$$CMSE                 0xc07'e000         32   0x20  <Block>
+    Veneer$$CMSE     ro code   0xc07'e000          2    0x8  system_stm32u3xx_s.o [1]
+                             - 0xc07'e008               0x8
+
+"P2", part 2 of 2:                                      0x0
+
+"P3", part 1 of 2:                                     0x10
+  P3-1                        0x3000'0000          4   0x10  <Init block>
+    .data            inited   0x3000'0000          4    0x4  system_stm32u3xx_s.o [1]
+    .bss             inited   0x3000'0004          4    0x4  system_stm32u3xx_s.o [1]
+    .bss             inited   0x3000'0008          4    0x4  system_stm32u3xx_s.o [1]
+    .bss             inited   0x3000'000c          4    0x4  system_stm32u3xx_s.o [1]
+                            - 0x3000'0010              0x10
+
+"P3", part 2 of 2:                                    0x400
+  CSTACK                      0x3000'0010          8  0x400  <Block>
+    CSTACK           uninit   0x3000'0010             0x400  <Block tail>
+                            - 0x3000'0410             0x400
+
+Unused ranges:
+
+         From           To      Size
+         ----           --      ----
+   0xc00'06fc   0xc07'dfff  0x7'd904
+   0xc07'e020   0xc07'ffff    0x1fe0
+  0x3000'0410  0x3001'7fff  0x1'7bf0
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address      Size
+          -------      ----
+Copy (__iar_copy_init3)
+    1 source range, total size 0x10:
+           0xc00'06e8  0x10
+    1 destination range, total size 0x10:
+          0x3000'0000  0x10
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                 ro code  ro data  rw data
+    ------                 -------  -------  -------
+command line/config:
+    ------------------------------------------------
+    Total:
+
+C:\Users\PC\Documents\IAREWARM\thermomodule_with_trustzone\Secure\Debug\Obj: [1]
+    startup_stm32u385xx.o      596
+    system_stm32u3xx_s.o       920       32       16
+    ------------------------------------------------
+    Total:                   1'516       32       16
+
+dl7M_tlf.a: [2]
+    exit.o                       4
+    ------------------------------------------------
+    Total:                       4
+
+m7M_tls.a: [3]
+    fpinit_M.o                  34
+    ------------------------------------------------
+    Total:                      34
+
+rt7M_tl.a: [4]
+    cexit.o                      4
+    cexit_2.o                   10
+    cmain.o                     34
+    copy_init3.o                42
+    cstartup_M.o                30
+    data_init.o                 40
+    ------------------------------------------------
+    Total:                     160
+
+shb_l.a: [5]
+    exit.o                      20
+    unwind_debug.o                        1
+    ------------------------------------------------
+    Total:                      20        1
+
+    Gaps                         9
+    Linker created                       20    1'024
+----------------------------------------------------
+    Grand Total:             1'743       53    1'040
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                       Address  Size  Type      Object
+-----                       -------  ----  ----      ------
+.iar.init_table$$Base    0xc00'0688         --   Gb  - Linker created -
+.iar.init_table$$Limit   0xc00'069c         --   Gb  - Linker created -
+?main                    0xc00'063d        Code  Gb  cmain.o [4]
+AHBPrescTable            0xc00'06d8  0x10  Data  Gb  system_stm32u3xx_s.o [1]
+CSTACK$$Base            0x3000'0010         --   Gb  - Linker created -
+CSTACK$$Limit           0x3000'0410         --   Gb  - Linker created -
+NMI_Handler              0xc00'06f9        Code  Wk  startup_stm32u385xx.o [1]
+Region$$Table$$Base      0xc00'0688         --   Gb  - Linker created -
+Region$$Table$$Limit     0xc00'069c         --   Gb  - Linker created -
+Reset_Handler            0xc00'06bd        Code  Wk  startup_stm32u385xx.o [1]
+SECURE_SystemCoreClockUpdate
+                         0xc07'e001  0x4c  Code  Gb  system_stm32u3xx_s.o [1]
+SysTick_Handler          0xc00'04af   0xa  Code  Gb  system_stm32u3xx_s.o [1]
+SystemCoreClock         0x3000'0000   0x4  Data  Gb  system_stm32u3xx_s.o [1]
+SystemCoreClockUpdate    0xc00'02e9  0x86  Code  Gb  system_stm32u3xx_s.o [1]
+SystemInit               0xc00'02d7  0x12  Code  Gb  system_stm32u3xx_s.o [1]
+Veneer$$CMSE$$Base       0xc07'e000         --   Gb  - Linker created -
+Veneer$$CMSE$$Limit      0xc07'e020         --   Gb  - Linker created -
+[local to main_cpp]::SysTick_Config(unsigned int)
+                         0xc00'03e7  0x30  Code  Lc  system_stm32u3xx_s.o [1]
+[local to main_cpp]::__NVIC_SetPriority(IRQn_Type, unsigned int)
+                         0xc00'03bb  0x2c  Code  Lc  system_stm32u3xx_s.o [1]
+[local to system_stm32u3xx_s_c]::TZ_SAU_Setup()
+                         0xc00'0235  0xa2  Code  Lc  system_stm32u3xx_s.o [1]
+__Vectors                0xc00'0000         --   Gb  startup_stm32u385xx.o [1]
+__Vectors_End            0xc00'0234        Data  Gb  startup_stm32u385xx.o [1]
+__Vectors_Size {Abs}          0x234         --   Gb  startup_stm32u385xx.o [1]
+__acle_se_SECURE_SystemCoreClockUpdate
+                         0xc00'036f        Code  Gb  system_stm32u3xx_s.o [1]
+__cmain                  0xc00'063d        Code  Gb  cmain.o [4]
+__exit                   0xc00'0675  0x14  Code  Gb  exit.o [5]
+__iar_DHC_allocated_fill {Abs}
+                        0x4fbc'8397         --   Gb  <internal module>
+__iar_DHC_block_guard {Abs}
+                        0x960f'7e4b         --   Gb  <internal module>
+__iar_DHC_check_frequency {Abs}
+                                0x0         --   Gb  <internal module>
+__iar_DHC_delayed_free_limit {Abs}
+                                0x0         --   Gb  <internal module>
+__iar_DHC_freed_fill {Abs}
+                        0xfc44'223f         --   Gb  <internal module>
+__iar_DHC_initial_fill {Abs}
+                        0x31ef'29e5         --   Gb  <internal module>
+__iar_DHC_integrity_error_limit {Abs}
+                                0xa         --   Gb  <internal module>
+__iar_DHC_request_limit {Abs}
+                        0x4000'0000         --   Gb  <internal module>
+__iar_DHC_unallocated_fill {Abs}
+                        0x1784'322b         --   Gb  <internal module>
+__iar_copy_init3         0xc00'05c5  0x2a  Code  Gb  copy_init3.o [4]
+__iar_data_init3         0xc00'05f1  0x28  Code  Gb  data_init.o [4]
+__iar_debug_exceptions   0xc00'05ee   0x1  Data  Gb  unwind_debug.o [5]
+__iar_init_vfp           0xc00'0619        Code  Gb  fpinit_M.o [3]
+__iar_program_start      0xc00'069d        Code  Gb  cstartup_M.o [4]
+__vector_table           0xc00'0000        Data  Gb  startup_stm32u385xx.o [1]
+_call_main               0xc00'0649        Code  Gb  cmain.o [4]
+_exit                    0xc00'0665        Code  Gb  cexit.o [4]
+_exit_2                  0xc00'0669        Code  Gb  cexit_2.o [4]
+clock_init()             0xc00'0417  0x98  Code  Gb  system_stm32u3xx_s.o [1]
+core_clk                0x3000'000c   0x4  Data  Gb  system_stm32u3xx_s.o [1]
+exit                     0xc00'065f   0x4  Code  Gb  exit.o [2]
+main                     0xc00'04d3  0x2a  Code  Gb  system_stm32u3xx_s.o [1]
+millis()                 0xc00'04cd   0x6  Code  Gb  system_stm32u3xx_s.o [1]
+systick_init()           0xc00'04b9  0x14  Code  Gb  system_stm32u3xx_s.o [1]
+ticks                   0x3000'0004   0x4  Data  Gb  system_stm32u3xx_s.o [1]
+tmr                     0x3000'0008   0x4  Data  Gb  system_stm32u3xx_s.o [1]
+
+
+[1] = C:\Users\PC\Documents\IAREWARM\thermomodule_with_trustzone\Secure\Debug\Obj
+[2] = dl7M_tlf.a
+[3] = m7M_tls.a
+[4] = rt7M_tl.a
+[5] = shb_l.a
+
+  1'743 bytes of readonly  code memory
+     53 bytes of readonly  data memory
+  1'040 bytes of readwrite data memory
+
+Errors: none
+Warnings: none

@@ -1,0 +1,33 @@
+##IAR Ninja build file
+
+
+#Rules
+rule COMPDB_GEN
+  command = C$:\iar\ewarm-10.10.2\common\bin\ClangdCompDbGenerator.exe $gencommand -f "$rspfile_name"
+  description = Building $out...
+  rspfile = $rspfile_name
+  rspfile_content = $flags
+
+rule COMPDB_LINK
+  command = C$:\iar\ewarm-10.10.2\common\bin\ClangdCompDbLinker.exe -f "$rspfile_name"
+  description = Building $out...
+  rspfile = $rspfile_name
+  rspfile_content = $flags
+
+
+
+#Build steps
+build C$:\Documents\IAREWARM\thermomodule_without_trustzone\Debug\BrowseInfo\CMSIS_16740029806039110909.dir\system_stm32u3xx.c.json : COMPDB_GEN 
+    flags = C$:\iar\ewarm-10.10.2\arm\bin\iccarm.exe C$:\Documents\IAREWARM\thermomodule_without_trustzone\CMSIS\system_stm32u3xx.c -o C$:\Documents\IAREWARM\thermomodule_without_trustzone\Debug\Obj\CMSIS_13545061835669826545.dir --debug --endian=little --cpu=Cortex-M33.no_dsp.no_se --char_is_signed --fpu=VFPv5_sp --libc++ -I C$:\Documents\IAREWARM\thermomodule_without_trustzone\CMSIS\ -I C$:\Documents\IAREWARM\thermomodule_without_trustzone\libraries\ -I C$:\Documents\IAREWARM\thermomodule_without_trustzone\drivers\ -I C$:\Documents\IAREWARM\thermomodule_without_trustzone\application\ -I C$:\Documents\IAREWARM\thermomodule_without_trustzone\middleware\ -I C$:\Documents\IAREWARM\thermomodule_without_trustzone\CMSIS\CMSIS-DSP\ -I C$:\Documents\IAREWARM\thermomodule_without_trustzone\CMSIS\CMSIS-DSP\dsp\ -Ohs --c++ --no_exceptions --no_rtti -e
+    gencommand = -output_file C$:\Documents\IAREWARM\thermomodule_without_trustzone\Debug\BrowseInfo\CMSIS_16740029806039110909.dir\system_stm32u3xx.c.json -icc_path C$:\iar\ewarm-10.10.2\arm\bin\iccarm.exe -source_file C$:\Documents\IAREWARM\thermomodule_without_trustzone\CMSIS\system_stm32u3xx.c -work_dir C$:\Documents\IAREWARM\thermomodule_without_trustzone\Debug -keyword_map_path C$:\iar\ewarm-10.10.2\common\config\ClangdConfig.json -object_file C$:\Documents\IAREWARM\thermomodule_without_trustzone\Debug\Obj\CMSIS_13545061835669826545.dir\system_stm32u3xx.o
+    rspfile_name = C$:\Documents\IAREWARM\thermomodule_without_trustzone\Debug\BrowseInfo\CMSIS_16740029806039110909.dir\system_stm32u3xx.c.json.rsp
+
+build C$:\Documents\IAREWARM\thermomodule_without_trustzone\Debug\BrowseInfo\main.cpp.json : COMPDB_GEN 
+    flags = C$:\iar\ewarm-10.10.2\arm\bin\iccarm.exe C$:\Documents\IAREWARM\thermomodule_without_trustzone\main.cpp -o C$:\Documents\IAREWARM\thermomodule_without_trustzone\Debug\Obj\ --debug --endian=little --cpu=Cortex-M33.no_dsp.no_se --char_is_signed --fpu=VFPv5_sp --libc++ -I C$:\Documents\IAREWARM\thermomodule_without_trustzone\CMSIS\ -I C$:\Documents\IAREWARM\thermomodule_without_trustzone\libraries\ -I C$:\Documents\IAREWARM\thermomodule_without_trustzone\drivers\ -I C$:\Documents\IAREWARM\thermomodule_without_trustzone\application\ -I C$:\Documents\IAREWARM\thermomodule_without_trustzone\middleware\ -I C$:\Documents\IAREWARM\thermomodule_without_trustzone\CMSIS\CMSIS-DSP\ -I C$:\Documents\IAREWARM\thermomodule_without_trustzone\CMSIS\CMSIS-DSP\dsp\ -Ohs --c++ --no_exceptions --no_rtti -e
+    gencommand = -output_file C$:\Documents\IAREWARM\thermomodule_without_trustzone\Debug\BrowseInfo\main.cpp.json -icc_path C$:\iar\ewarm-10.10.2\arm\bin\iccarm.exe -source_file C$:\Documents\IAREWARM\thermomodule_without_trustzone\main.cpp -work_dir C$:\Documents\IAREWARM\thermomodule_without_trustzone\Debug -keyword_map_path C$:\iar\ewarm-10.10.2\common\config\ClangdConfig.json -object_file C$:\Documents\IAREWARM\thermomodule_without_trustzone\Debug\Obj\main.o
+    rspfile_name = C$:\Documents\IAREWARM\thermomodule_without_trustzone\Debug\BrowseInfo\main.cpp.json.rsp
+
+build C$:\Documents\IAREWARM\thermomodule_without_trustzone\Debug\BrowseInfo\compile_commands.json : COMPDB_LINK C$:\Documents\IAREWARM\thermomodule_without_trustzone\Debug\BrowseInfo\CMSIS_16740029806039110909.dir\system_stm32u3xx.c.json | C$:\Documents\IAREWARM\thermomodule_without_trustzone\Debug\BrowseInfo\main.cpp.json
+    flags = -o C$:\Documents\IAREWARM\thermomodule_without_trustzone\Debug\BrowseInfo\compile_commands.json C$:\Documents\IAREWARM\thermomodule_without_trustzone\Debug\BrowseInfo\CMSIS_16740029806039110909.dir\system_stm32u3xx.c.json C$:\Documents\IAREWARM\thermomodule_without_trustzone\Debug\BrowseInfo\main.cpp.json
+    rspfile_name = C$:\Documents\IAREWARM\thermomodule_without_trustzone\Debug\BrowseInfo\compile_commands.json.rsp
+

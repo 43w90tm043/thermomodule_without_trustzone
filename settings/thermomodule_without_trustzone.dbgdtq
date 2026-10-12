@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<Project>
+    <WindowStorage>
+        <WIN_DISASSEMBLY>
+            <kDisasmGotoHistoryKey />
+            <col-names>
+                <item>_I0</item>
+                <item>Disassembly</item>
+            </col-names>
+            <col-widths>
+                <item>20</item>
+                <item>500</item>
+            </col-widths>
+            <ShowCodeCoverage>1</ShowCodeCoverage>
+            <ShowInstrProfiling>1</ShowInstrProfiling>
+        </WIN_DISASSEMBLY>
+        <WIN_AUTO />
+        <WIN_CALL_STACK>
+            <col-names>
+                <item>_I0</item>
+                <item>Frame</item>
+            </col-names>
+            <col-widths>
+                <item>20</item>
+                <item>3500</item>
+            </col-widths>
+        </WIN_CALL_STACK>
+        <WIN_LOCALS />
+        <WIN_WATCH_1 />
+        <WIN_STATIC_WATCH>
+            <expressions>
+                <item />
+            </expressions>
+            <col-names>
+                <item>Expression</item>
+                <item>Value</item>
+                <item>Location</item>
+                <item>Type</item>
+            </col-names>
+            <col-widths>
+                <item>158</item>
+                <item>100</item>
+                <item>150</item>
+                <item>100</item>
+            </col-widths>
+            <right_justify>0</right_justify>
+        </WIN_STATIC_WATCH>
+        <WIN_TERM_IO>
+            <kTermIOInputHistoryKey>
+                <item></item>
+            </kTermIOInputHistoryKey>
+            <col-names>
+                <item>&lt;Not shown&gt;</item>
+            </col-names>
+            <col-widths>
+                <item>2000</item>
+            </col-widths>
+        </WIN_TERM_IO>
+        <WIN_PROFILING2>
+            <col-names>
+                <item>Function</item>
+                <item>PC Count</item>
+                <item>PC Count (%)</item>
+                <item>Address</item>
+            </col-names>
+            <col-widths>
+                <item>184</item>
+                <item>80</item>
+                <item>100</item>
+                <item>150</item>
+            </col-widths>
+            <ProfSortColumn>0</ProfSortColumn>
+            <ProfSortHow>1</ProfSortHow>
+        </WIN_PROFILING2>
+        <WIN_TIMELINE_GRAPH />
+        <WIN_EXCEPTION_VIEWER>
+            <col-names>
+                <item>_I0</item>
+            </col-names>
+            <col-widths>
+                <item>800</item>
+            </col-widths>
+        </WIN_EXCEPTION_VIEWER>
+    </WindowStorage>
+    <VisibleWindows>WIN_CALL_STACK WIN_DEBUG_LOG WIN_EXCEPTION_VIEWER WIN_TERM_IO WIN_WORKSPACE</VisibleWindows>
+</Project>
