@@ -25,7 +25,7 @@
                 <item>20</item>
             </col-widths>
             <NodeDict>
-                <ExpandedNode></ExpandedNode>
+                <ExpandedNode />
                 <ExpandedNode>thermomodule_without_trustzone</ExpandedNode>
                 <ExpandedNode>thermomodule_without_trustzone/Output</ExpandedNode>
                 <ExpandedNode>thermomodule_without_trustzone/application</ExpandedNode>
@@ -123,6 +123,7 @@
         <CurrentConfigs>
             <ProjConf>thermomodule_without_trustzone/Debug</ProjConf>
         </CurrentConfigs>
+        <CurrentProj>thermomodule_without_trustzone</CurrentProj>
     </Configuration>
     <TextViewStorage>
         <numberOfDocGroups>1</numberOfDocGroups>

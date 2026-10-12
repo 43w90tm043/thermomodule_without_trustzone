@@ -454,7 +454,7 @@ int main()
             g_window_start = clock::cycles();
         }
         
-        __WFI();
+        //__WFI();
     }
 }
 

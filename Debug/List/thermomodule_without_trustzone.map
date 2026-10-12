@@ -1,6 +1,6 @@
 ###############################################################################
 #
-# IAR ELF Linker V10.10.2.628/W64 for ARM                 12/Oct/2026  18:16:33
+# IAR ELF Linker V10.10.2.628/W64 for ARM                 12/Oct/2026  19:53:29
 # Copyright 2007-2026 IAR Systems AB.
 #
 #    Output file  =
@@ -71,108 +71,108 @@ initialize by copy {  rw };
   .intvec            ro code   0x800'0000          4   0x234  startup_stm32u385xx.o [2]
                              - 0x800'0234              0x234
 
-"P1":                                                 0x5893
-  .text              ro code   0x800'0234          4  0x159c  main.o [1]
-  .text              ro code   0x800'17d0          4   0x230  I64DivMod.o [5]
-  .text              ro code   0x800'1a00          4    0xa6  ABImemcpy.o [5]
-  .text              ro code   0x800'1aa6          2    0x7e  lz77_init_single.o [5]
-  .text              ro code   0x800'1b24          4    0x9c  system_stm32u3xx.o [2]
-  .text              ro code   0x800'1bc0          4   0x288  main.o [1]
-  .text              ro code   0x800'1e48          4    0x66  main.o [1]
-  .rodata            const     0x800'1eae                0x1  main.o [1]
-  .rodata            const     0x800'1eaf                0x1  unwind_debug.o [6]
-  .text              ro code   0x800'1eb0          4    0xb0  main.o [1]
-  .text              ro code   0x800'1f60          4    0x36  strlen.o [5]
-  .text              ro code   0x800'1f98          4   0x16c  main.o [1]
-  .text              ro code   0x800'2104          4   0x900  main.o [1]
-  .text              ro code   0x800'2a04          4   0x124  main.o [1]
-  .text              ro code   0x800'2b28          4    0x90  main.o [1]
-  .text              ro code   0x800'2bb8          4   0x284  main.o [1]
-  .text              ro code   0x800'2e3c          4    0xbc  main.o [1]
-  .text              ro code   0x800'2ef8          4    0xc4  main.o [1]
-  .text              ro code   0x800'2fbc          4   0x17c  main.o [1]
-  .text              ro code   0x800'3138          4    0xfc  main.o [1]
-  .text              ro code   0x800'3234          4    0x9c  main.o [1]
-  .text              ro code   0x800'32d0          4    0xbc  main.o [1]
-  .text              ro code   0x800'338c          2     0x2  main.o [1]
-  .text              ro code   0x800'3390          4     0x6  ABImemclr4.o [5]
-  .text              ro code   0x800'3398          4    0x96  ABImemmove.o [5]
-  .text              ro code   0x800'3430          4    0xfc  main.o [1]
-  .text              ro code   0x800'352c          4   0x46c  main.o [1]
-  .text              ro code   0x800'3998          4    0x70  main.o [1]
-  .text              ro code   0x800'3a08          4    0xc8  main.o [1]
-  .text              ro code   0x800'3ad0          4    0xc8  main.o [1]
-  .text              ro code   0x800'3b98          4    0x3e  main.o [1]
-  .text              ro code   0x800'3bd8          4    0x60  main.o [1]
-  .text              ro code   0x800'3c38          4     0x6  ABImemclr.o [5]
-  .text              ro code   0x800'3c40          4   0x234  main.o [1]
-  .text              ro code   0x800'3e74          4    0xec  main.o [1]
-  .text              ro code   0x800'3f60          4    0xa0  main.o [1]
-  .text              ro code   0x800'4000          4    0xf4  main.o [1]
-  .text              ro code   0x800'40f4          4   0x1f0  main.o [1]
-  .text              ro code   0x800'42e4          4   0x124  main.o [1]
-  .text              ro code   0x800'4408          2    0x36  main.o [1]
-  .text              ro code   0x800'4440          4    0xf8  main.o [1]
-  .text              ro code   0x800'4538          4    0x50  main.o [1]
-  .text              ro code   0x800'4588          2    0x5a  main.o [1]
-  .text              ro code   0x800'45e4          4    0x32  ABImemset48.o [5]
-  .text              ro code   0x800'4618          4    0x50  main.o [1]
-  .text              ro code   0x800'4668          2    0x3e  main.o [1]
-  .text              ro code   0x800'46a6          2    0x46  main.o [1]
-  .text              ro code   0x800'46ec          4    0xb8  main.o [1]
-  .text              ro code   0x800'47a4          4    0x5e  ABImemset.o [5]
-  .text              ro code   0x800'4804          4   0x1a8  main.o [1]
-  .text              ro code   0x800'49ac          4    0xb8  main.o [1]
-  .text              ro code   0x800'4a64          4    0xe0  main.o [1]
-  .text              ro code   0x800'4b44          4   0x2fc  main.o [1]
-  .rodata            const     0x800'4e40          4   0x278  main.o [1]
-  .rodata            const     0x800'50b8          4   0x1b4  main.o [1]
-  .text              ro code   0x800'526c          4   0x160  main.o [1]
-  .text              ro code   0x800'53cc          4   0x120  main.o [1]
-  .text              ro code   0x800'54ec          4    0x74  main.o [1]
-  .text              ro code   0x800'5560          4    0x1c  main.o [1]
-  .rodata            const     0x800'557c          4   0x100  main.o [1]
-  .text              ro code   0x800'567c          4    0x48  main.o [1]
-  .rodata            const     0x800'56c4          4    0x40  main.o [1]
-  .text              ro code   0x800'5704          2    0x38  zero_init3.o [5]
-  .rodata            const     0x800'573c          4    0x2c  main.o [1]
-  .rodata            const     0x800'5768          4    0x28  main.o [1]
-  .rodata            const     0x800'5790          4    0x28  main.o [1]
-  .rodata            const     0x800'57b8          4    0x28  main.o [1]
-  .rodata            const     0x800'57e0          4    0x28  main.o [1]
-  .rodata            const     0x800'5808          4    0x28  main.o [1]
-  .rodata            const     0x800'5830          4    0x28  main.o [1]
-  .rodata            const     0x800'5858          4    0x28  main.o [1]
-  .rodata            const     0x800'5880          4    0x28  main.o [1]
-  .rodata            const     0x800'58a8          4    0x28  main.o [1]
-  .text              ro code   0x800'58d0          4    0x28  data_init.o [5]
-  .rodata            const     0x800'58f8          4    0x24  main.o [1]
-  .text              ro code   0x800'591c          4    0x22  fpinit_M.o [4]
-  .iar.init_table    const     0x800'5940          4    0x20  - Linker created -
-  .text              ro code   0x800'5960          4    0x1e  cstartup_M.o [5]
-  .text              ro code   0x800'5980          4    0x1e  cmain.o [5]
-  .text              ro code   0x800'599e          2     0x4  exit.o [3]
-  .text              ro code   0x800'59a4          4     0x4  cexit.o [5]
-  .text              ro code   0x800'59a8          4     0xa  cexit_2.o [5]
-  .text              ro code   0x800'59b4          4    0x14  exit.o [6]
-  .text              ro code   0x800'59c8          4    0x1c  startup_stm32u385xx.o [2]
-  .rodata            const     0x800'59e4          4    0x14  main.o [1]
-  .rodata            const     0x800'59f8          4    0x14  main.o [1]
-  .rodata            const     0x800'5a0c          4    0x10  main.o [1]
-  .rodata            const     0x800'5a1c          4    0x10  main.o [1]
-  .rodata            const     0x800'5a2c          4    0x10  main.o [1]
-  .rodata            const     0x800'5a3c          4     0x8  main.o [1]
-  .rodata            const     0x800'5a44          4     0x4  main.o [1]
-  .rodata            const     0x800'5a48          4     0x4  main.o [1]
-  .rodata            const     0x800'5a4c          4     0x4  main.o [1]
-  .rodata            const     0x800'5a50          4     0x4  main.o [1]
-  .rodata            const     0x800'5a54          4     0x4  main.o [1]
-  .rodata            const     0x800'5a58          4     0x4  main.o [1]
-  .text              ro code   0x800'5a5c          2     0x4  startup_stm32u385xx.o [2]
-  .rodata            const     0x800'5a60                0x0  zero_init3.o [5]
-  .rodata            const     0x800'5a60                0x0  lz77_init_single.o [5]
-  Initializer bytes  const     0x800'5a60               0x67  <for P2-1>
-                             - 0x800'5ac7             0x5893
+"P1":                                                 0x58c3
+  .text              ro code   0x800'0234          4  0x15cc  main.o [1]
+  .text              ro code   0x800'1800          4   0x230  I64DivMod.o [5]
+  .text              ro code   0x800'1a30          4    0xa6  ABImemcpy.o [5]
+  .text              ro code   0x800'1ad6          2    0x7e  lz77_init_single.o [5]
+  .text              ro code   0x800'1b54          4    0x9c  system_stm32u3xx.o [2]
+  .text              ro code   0x800'1bf0          4   0x288  main.o [1]
+  .text              ro code   0x800'1e78          4    0x66  main.o [1]
+  .rodata            const     0x800'1ede                0x1  main.o [1]
+  .rodata            const     0x800'1edf                0x1  unwind_debug.o [6]
+  .text              ro code   0x800'1ee0          4    0xb0  main.o [1]
+  .text              ro code   0x800'1f90          4    0x36  strlen.o [5]
+  .text              ro code   0x800'1fc8          4   0x16c  main.o [1]
+  .text              ro code   0x800'2134          4   0x900  main.o [1]
+  .text              ro code   0x800'2a34          4   0x124  main.o [1]
+  .text              ro code   0x800'2b58          4    0x90  main.o [1]
+  .text              ro code   0x800'2be8          4   0x284  main.o [1]
+  .text              ro code   0x800'2e6c          4    0xbc  main.o [1]
+  .text              ro code   0x800'2f28          4    0xc4  main.o [1]
+  .text              ro code   0x800'2fec          4   0x17c  main.o [1]
+  .text              ro code   0x800'3168          4    0xfc  main.o [1]
+  .text              ro code   0x800'3264          4    0x9c  main.o [1]
+  .text              ro code   0x800'3300          2     0x2  main.o [1]
+  .text              ro code   0x800'3304          4    0x96  ABImemmove.o [5]
+  .text              ro code   0x800'339c          4    0xfc  main.o [1]
+  .text              ro code   0x800'3498          4   0x46c  main.o [1]
+  .text              ro code   0x800'3904          4    0xbc  main.o [1]
+  .text              ro code   0x800'39c0          4    0x70  main.o [1]
+  .text              ro code   0x800'3a30          4    0xc8  main.o [1]
+  .text              ro code   0x800'3af8          4    0xc8  main.o [1]
+  .text              ro code   0x800'3bc0          4    0x3e  main.o [1]
+  .text              ro code   0x800'3c00          4    0x60  main.o [1]
+  .text              ro code   0x800'3c60          4     0x6  ABImemclr.o [5]
+  .text              ro code   0x800'3c68          4   0x234  main.o [1]
+  .text              ro code   0x800'3e9c          4    0xec  main.o [1]
+  .text              ro code   0x800'3f88          4    0xa0  main.o [1]
+  .text              ro code   0x800'4028          4    0xf4  main.o [1]
+  .text              ro code   0x800'411c          4   0x1f0  main.o [1]
+  .text              ro code   0x800'430c          4   0x124  main.o [1]
+  .text              ro code   0x800'4430          2    0x36  main.o [1]
+  .text              ro code   0x800'4468          4    0xf8  main.o [1]
+  .text              ro code   0x800'4560          4    0x50  main.o [1]
+  .text              ro code   0x800'45b0          2    0x5a  main.o [1]
+  .text              ro code   0x800'460c          4    0x50  main.o [1]
+  .text              ro code   0x800'465c          2    0x3e  main.o [1]
+  .text              ro code   0x800'469a          2    0x46  main.o [1]
+  .text              ro code   0x800'46e0          4    0xb8  main.o [1]
+  .text              ro code   0x800'4798          4    0x5e  ABImemset.o [5]
+  .text              ro code   0x800'47f8          4     0x6  ABImemclr4.o [5]
+  .text              ro code   0x800'4800          4   0x1a8  main.o [1]
+  .text              ro code   0x800'49a8          4    0xb8  main.o [1]
+  .text              ro code   0x800'4a60          4    0xe0  main.o [1]
+  .text              ro code   0x800'4b40          4    0x32  ABImemset48.o [5]
+  .text              ro code   0x800'4b74          4   0x2fc  main.o [1]
+  .rodata            const     0x800'4e70          4   0x278  main.o [1]
+  .rodata            const     0x800'50e8          4   0x1b4  main.o [1]
+  .text              ro code   0x800'529c          4   0x160  main.o [1]
+  .text              ro code   0x800'53fc          4   0x120  main.o [1]
+  .text              ro code   0x800'551c          4    0x74  main.o [1]
+  .text              ro code   0x800'5590          4    0x1c  main.o [1]
+  .rodata            const     0x800'55ac          4   0x100  main.o [1]
+  .text              ro code   0x800'56ac          4    0x48  main.o [1]
+  .rodata            const     0x800'56f4          4    0x40  main.o [1]
+  .text              ro code   0x800'5734          2    0x38  zero_init3.o [5]
+  .rodata            const     0x800'576c          4    0x2c  main.o [1]
+  .rodata            const     0x800'5798          4    0x28  main.o [1]
+  .rodata            const     0x800'57c0          4    0x28  main.o [1]
+  .rodata            const     0x800'57e8          4    0x28  main.o [1]
+  .rodata            const     0x800'5810          4    0x28  main.o [1]
+  .rodata            const     0x800'5838          4    0x28  main.o [1]
+  .rodata            const     0x800'5860          4    0x28  main.o [1]
+  .rodata            const     0x800'5888          4    0x28  main.o [1]
+  .rodata            const     0x800'58b0          4    0x28  main.o [1]
+  .rodata            const     0x800'58d8          4    0x28  main.o [1]
+  .text              ro code   0x800'5900          4    0x28  data_init.o [5]
+  .rodata            const     0x800'5928          4    0x24  main.o [1]
+  .text              ro code   0x800'594c          4    0x22  fpinit_M.o [4]
+  .iar.init_table    const     0x800'5970          4    0x20  - Linker created -
+  .text              ro code   0x800'5990          4    0x1e  cstartup_M.o [5]
+  .text              ro code   0x800'59b0          4    0x1e  cmain.o [5]
+  .text              ro code   0x800'59ce          2     0x4  exit.o [3]
+  .text              ro code   0x800'59d4          4     0x4  cexit.o [5]
+  .text              ro code   0x800'59d8          4     0xa  cexit_2.o [5]
+  .text              ro code   0x800'59e4          4    0x14  exit.o [6]
+  .text              ro code   0x800'59f8          4    0x1c  startup_stm32u385xx.o [2]
+  .rodata            const     0x800'5a14          4    0x14  main.o [1]
+  .rodata            const     0x800'5a28          4    0x14  main.o [1]
+  .rodata            const     0x800'5a3c          4    0x10  main.o [1]
+  .rodata            const     0x800'5a4c          4    0x10  main.o [1]
+  .rodata            const     0x800'5a5c          4    0x10  main.o [1]
+  .rodata            const     0x800'5a6c          4     0x8  main.o [1]
+  .rodata            const     0x800'5a74          4     0x4  main.o [1]
+  .rodata            const     0x800'5a78          4     0x4  main.o [1]
+  .rodata            const     0x800'5a7c          4     0x4  main.o [1]
+  .rodata            const     0x800'5a80          4     0x4  main.o [1]
+  .rodata            const     0x800'5a84          4     0x4  main.o [1]
+  .rodata            const     0x800'5a88          4     0x4  main.o [1]
+  .text              ro code   0x800'5a8c          2     0x4  startup_stm32u385xx.o [2]
+  .rodata            const     0x800'5a90                0x0  zero_init3.o [5]
+  .rodata            const     0x800'5a90                0x0  lz77_init_single.o [5]
+  Initializer bytes  const     0x800'5a90               0x67  <for P2-1>
+                             - 0x800'5af7             0x58c3
 
 "P2", part 1 of 3:                                    0x1339
   P2-1                        0x2000'0000             0x1339  <Init block>
@@ -231,7 +231,7 @@ Unused ranges:
 
          From           To      Size
          ----           --      ----
-   0x800'5ac7   0x80f'ffff  0xf'a539
+   0x800'5af7   0x80f'ffff  0xf'a509
   0x2000'1339  0x2000'133b       0x3
   0x2000'1820  0x2002'ffff  0x2'e7e0
 
@@ -248,7 +248,7 @@ Zero (__iar_zero_init3)
 
 Copy/lz77 (__iar_lz77_init_single3)
     1 source range, total size 0x67 (2% of destination):
-           0x800'5a60    0x67
+           0x800'5a90    0x67
     1 destination range, total size 0x1339:
           0x2000'0000  0x1339
 
@@ -265,9 +265,9 @@ command line/config:
     Total:
 
 C:\Documents\IAREWARM\thermomodule_without_trustzone\Debug\Obj: [1]
-    main.o                  18'934    2'052    5'142
+    main.o                  18'982    2'052    5'142
     ------------------------------------------------
-    Total:                  18'934    2'052    5'142
+    Total:                  18'982    2'052    5'142
 
 C:\Documents\IAREWARM\thermomodule_without_trustzone\Debug\Obj\CMSIS_13545061835669826545.dir: [2]
     startup_stm32u385xx.o      596
@@ -313,7 +313,7 @@ shb_l.a: [6]
     Gaps                        26        2
     Linker created                       32    1'024
 ----------------------------------------------------
-    Grand Total:            21'152    2'087    6'170
+    Grand Total:            21'200    2'087    6'170
 
 
 *******************************************************************************
@@ -322,24 +322,24 @@ shb_l.a: [6]
 
 Entry                       Address    Size  Type      Object
 -----                       -------    ----  ----      ------
-.iar.init_table$$Base    0x800'5940           --   Gb  - Linker created -
-.iar.init_table$$Limit   0x800'5960           --   Gb  - Linker created -
-?main                    0x800'5981          Code  Gb  cmain.o [5]
-AHBPrescTable            0x800'1bb0    0x10  Data  Gb  system_stm32u3xx.o [2]
+.iar.init_table$$Base    0x800'5970           --   Gb  - Linker created -
+.iar.init_table$$Limit   0x800'5990           --   Gb  - Linker created -
+?main                    0x800'59b1          Code  Gb  cmain.o [5]
+AHBPrescTable            0x800'1be0    0x10  Data  Gb  system_stm32u3xx.o [2]
 CSTACK$$Base            0x2000'1420           --   Gb  - Linker created -
 CSTACK$$Limit           0x2000'1820           --   Gb  - Linker created -
-EXTI2_IRQHandler         0x800'154d    0x3a  Code  Gb  main.o [1]
-FDCAN1_IT0_IRQHandler    0x800'1619    0x30  Code  Gb  main.o [1]
-NMI_Handler              0x800'5a5d          Code  Wk  startup_stm32u385xx.o [2]
-OCTOSPI1_IRQHandler      0x800'15c1    0x4c  Code  Gb  main.o [1]
-Region$$Table$$Base      0x800'5940           --   Gb  - Linker created -
-Region$$Table$$Limit     0x800'5960           --   Gb  - Linker created -
-Reset_Handler            0x800'59c9          Code  Wk  startup_stm32u385xx.o [2]
-SPI1_IRQHandler          0x800'1587    0x30  Code  Gb  main.o [1]
+EXTI2_IRQHandler         0x800'1559    0x3a  Code  Gb  main.o [1]
+FDCAN1_IT0_IRQHandler    0x800'1629    0x30  Code  Gb  main.o [1]
+NMI_Handler              0x800'5a8d          Code  Wk  startup_stm32u385xx.o [2]
+OCTOSPI1_IRQHandler      0x800'15d9    0x4c  Code  Gb  main.o [1]
+Region$$Table$$Base      0x800'5970           --   Gb  - Linker created -
+Region$$Table$$Limit     0x800'5990           --   Gb  - Linker created -
+Reset_Handler            0x800'59f9          Code  Wk  startup_stm32u385xx.o [2]
+SPI1_IRQHandler          0x800'1599    0x30  Code  Gb  main.o [1]
 SysTick_Handler          0x800'0285    0x16  Code  Gb  main.o [1]
 SystemCoreClock         0x2000'1334     0x4  Data  Gb  system_stm32u3xx.o [2]
-SystemCoreClockUpdate    0x800'1b31    0x62  Code  Gb  system_stm32u3xx.o [2]
-SystemInit               0x800'1b25     0xc  Code  Gb  system_stm32u3xx.o [2]
+SystemCoreClockUpdate    0x800'1b61    0x62  Code  Gb  system_stm32u3xx.o [2]
+SystemInit               0x800'1b55     0xc  Code  Gb  system_stm32u3xx.o [2]
 [local to main_cpp]::<unnamed>::g_dropped_readings
                         0x2000'1330     0x4  Data  Lc  main.o [1]
 [local to main_cpp]::<unnamed>::g_readings
@@ -351,17 +351,17 @@ SystemInit               0x800'1b25     0xc  Code  Gb  system_stm32u3xx.o [2]
 __Vectors                0x800'0000           --   Gb  startup_stm32u385xx.o [2]
 __Vectors_End            0x800'0234          Data  Gb  startup_stm32u385xx.o [2]
 __Vectors_Size {Abs}          0x234           --   Gb  startup_stm32u385xx.o [2]
-__aeabi_memclr           0x800'3c39          Code  Gb  ABImemclr.o [5]
-__aeabi_memclr4          0x800'3391          Code  Gb  ABImemclr4.o [5]
-__aeabi_memcpy           0x800'1a01          Code  Gb  ABImemcpy.o [5]
-__aeabi_memcpy4          0x800'1a21          Code  Gb  ABImemcpy.o [5]
-__aeabi_memcpy8          0x800'1a21          Code  Gb  ABImemcpy.o [5]
-__aeabi_memmove          0x800'3399          Code  Gb  ABImemmove.o [5]
-__aeabi_memmove4         0x800'3399          Code  Gb  ABImemmove.o [5]
-__aeabi_memmove8         0x800'3399          Code  Gb  ABImemmove.o [5]
-__aeabi_uldivmod         0x800'17d1          Code  Gb  I64DivMod.o [5]
-__cmain                  0x800'5981          Code  Gb  cmain.o [5]
-__exit                   0x800'59b5    0x14  Code  Gb  exit.o [6]
+__aeabi_memclr           0x800'3c61          Code  Gb  ABImemclr.o [5]
+__aeabi_memclr4          0x800'47f9          Code  Gb  ABImemclr4.o [5]
+__aeabi_memcpy           0x800'1a31          Code  Gb  ABImemcpy.o [5]
+__aeabi_memcpy4          0x800'1a51          Code  Gb  ABImemcpy.o [5]
+__aeabi_memcpy8          0x800'1a51          Code  Gb  ABImemcpy.o [5]
+__aeabi_memmove          0x800'3305          Code  Gb  ABImemmove.o [5]
+__aeabi_memmove4         0x800'3305          Code  Gb  ABImemmove.o [5]
+__aeabi_memmove8         0x800'3305          Code  Gb  ABImemmove.o [5]
+__aeabi_uldivmod         0x800'1801          Code  Gb  I64DivMod.o [5]
+__cmain                  0x800'59b1          Code  Gb  cmain.o [5]
+__exit                   0x800'59e5    0x14  Code  Gb  exit.o [6]
 __iar_DHC_allocated_fill {Abs}
                         0x4fbc'8397           --   Gb  <internal module>
 __iar_DHC_block_guard {Abs}
@@ -380,61 +380,61 @@ __iar_DHC_request_limit {Abs}
                         0x4000'0000           --   Gb  <internal module>
 __iar_DHC_unallocated_fill {Abs}
                         0x1784'322b           --   Gb  <internal module>
-__iar_Memset4_word       0x800'45e5          Code  Gb  ABImemset48.o [5]
-__iar_Memset8_word       0x800'45e5          Code  Gb  ABImemset48.o [5]
-__iar_Memset_word        0x800'47a5          Code  Gb  ABImemset.o [5]
-__iar_data_init3         0x800'58d1    0x28  Code  Gb  data_init.o [5]
-__iar_debug_exceptions   0x800'1eaf     0x1  Data  Gb  unwind_debug.o [6]
-__iar_init_vfp           0x800'591d          Code  Gb  fpinit_M.o [4]
+__iar_Memset4_word       0x800'4b41          Code  Gb  ABImemset48.o [5]
+__iar_Memset8_word       0x800'4b41          Code  Gb  ABImemset48.o [5]
+__iar_Memset_word        0x800'4799          Code  Gb  ABImemset.o [5]
+__iar_data_init3         0x800'5901    0x28  Code  Gb  data_init.o [5]
+__iar_debug_exceptions   0x800'1edf     0x1  Data  Gb  unwind_debug.o [6]
+__iar_init_vfp           0x800'594d          Code  Gb  fpinit_M.o [4]
 __iar_lz77_init_single3
-                         0x800'1aa7    0x7e  Code  Gb  lz77_init_single.o [5]
-__iar_program_start      0x800'5961          Code  Gb  cstartup_M.o [5]
-__iar_zero_init3         0x800'5705    0x38  Code  Gb  zero_init3.o [5]
+                         0x800'1ad7    0x7e  Code  Gb  lz77_init_single.o [5]
+__iar_program_start      0x800'5991          Code  Gb  cstartup_M.o [5]
+__iar_zero_init3         0x800'5735    0x38  Code  Gb  zero_init3.o [5]
 __vector_table           0x800'0000          Data  Gb  startup_stm32u385xx.o [2]
-_call_main               0x800'598d          Code  Gb  cmain.o [5]
-_exit                    0x800'59a5          Code  Gb  cexit.o [5]
-_exit_2                  0x800'59a9          Code  Gb  cexit_2.o [5]
-exit                     0x800'599f     0x4  Code  Gb  exit.o [3]
+_call_main               0x800'59bd          Code  Gb  cmain.o [5]
+_exit                    0x800'59d5          Code  Gb  cexit.o [5]
+_exit_2                  0x800'59d9          Code  Gb  cexit_2.o [5]
+exit                     0x800'59cf     0x4  Code  Gb  exit.o [3]
 g_hcan                  0x2000'0290  0x1018  Data  Lc  main.o [1]
 hcan::Config::MaxCanData
-                         0x800'5a58     0x4  Data  Wk  main.o [1]
+                         0x800'5a88     0x4  Data  Wk  main.o [1]
 hcan::MessageId::decode(unsigned int)
-                         0x800'4669    0x3e  Code  Wk  main.o [1]
+                         0x800'465d    0x3e  Code  Wk  main.o [1]
 hcan::Protocol<(unsigned int)4096, (unsigned int)1>::receive(hcan::CanFdFrame const &, unsigned int)
-                         0x800'352d   0x46c  Code  Wk  main.o [1]
+                         0x800'3499   0x46c  Code  Wk  main.o [1]
 hcan::Reassembler<(unsigned int)4096, (unsigned int)1>::find_slot(hcan::MessageId const &, unsigned short)
-                         0x800'46a7    0x46  Code  Wk  main.o [1]
-main                     0x800'0319  0x11f6  Code  Gb  main.o [1]
-main::can_cfg            0x800'5080    0x38  Data  Lc  main.o [1]
+                         0x800'469b    0x46  Code  Wk  main.o [1]
+main                     0x800'0319  0x1202  Code  Gb  main.o [1]
+main::can_cfg            0x800'50b0    0x38  Data  Lc  main.o [1]
 main::g_busy_cycles     0x2000'0288     0x4  Data  Lc  main.o [1]
 main::g_window_start    0x2000'028c     0x4  Data  Lc  main.o [1]
 main::static guard for g_window_start
                         0x2000'0284     0x1  Data  Lc  main.o [1]
 std::span<std::byte const, (unsigned int)4294967295>::extent
-                         0x800'5a50     0x4  Data  Wk  main.o [1]
+                         0x800'5a80     0x4  Data  Wk  main.o [1]
 std::span<unsigned char const, (unsigned int)2>::extent
-                         0x800'5a44     0x4  Data  Wk  main.o [1]
+                         0x800'5a74     0x4  Data  Wk  main.o [1]
 std::span<unsigned char, (unsigned int)4>::extent
-                         0x800'5a48     0x4  Data  Wk  main.o [1]
+                         0x800'5a78     0x4  Data  Wk  main.o [1]
 std::span<unsigned char, (unsigned int)64>::extent
-                         0x800'5a4c     0x4  Data  Wk  main.o [1]
+                         0x800'5a7c     0x4  Data  Wk  main.o [1]
 stm32u3::clock::ticks   0x2000'13d0     0x4  Data  Wk  main.o [1]
 stm32u3::drivers::ads1262<stm32u3::spi::master<stm32u3::spi::spi1, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)1, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)2, .speed=(stm32u3::gpio::speed)3, .af=(unsigned char)5}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)4, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)2, .speed=(stm32u3::gpio::speed)3, .pull=(stm32u3::gpio::pull)1, .af=(unsigned char)5}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)5, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)2, .speed=(stm32u3::gpio::speed)3, .af=(unsigned char)5}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)15, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)3}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)2, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)0, .exti=(stm32u3::gpio::exti_mode)1, .trigger=(stm32u3::gpio::exti_trigger)2}>, stm32u3::spi::master_config{.prescaler=(stm32u3::spi::prescaler)1073741824, .phase=(stm32u3::spi::phase)16777216, .polarity=(stm32u3::spi::polarity)0, .datasize=(stm32u3::spi::datasize)7, .nss=(stm32u3::spi::nss_mode)67108864, .drdy=(stm32u3::spi::drdy_level)0}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)15, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)3}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)2, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)0, .exti=(stm32u3::gpio::exti_mode)1, .trigger=(stm32u3::gpio::exti_trigger)2}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)7, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)2}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)6, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)2}>, stm32u3::drivers::hw_options{.spi_drdy_gated=(bool)1, .cs_setup_us=(unsigned int)1}>::apply_configuration()
-                         0x800'4805   0x1a8  Code  Wk  main.o [1]
+                         0x800'4801   0x1a8  Code  Wk  main.o [1]
 stm32u3::drivers::ads1262<stm32u3::spi::master<stm32u3::spi::spi1, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)1, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)2, .speed=(stm32u3::gpio::speed)3, .af=(unsigned char)5}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)4, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)2, .speed=(stm32u3::gpio::speed)3, .pull=(stm32u3::gpio::pull)1, .af=(unsigned char)5}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)5, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)2, .speed=(stm32u3::gpio::speed)3, .af=(unsigned char)5}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)15, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)3}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)2, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)0, .exti=(stm32u3::gpio::exti_mode)1, .trigger=(stm32u3::gpio::exti_trigger)2}>, stm32u3::spi::master_config{.prescaler=(stm32u3::spi::prescaler)1073741824, .phase=(stm32u3::spi::phase)16777216, .polarity=(stm32u3::spi::polarity)0, .datasize=(stm32u3::spi::datasize)7, .nss=(stm32u3::spi::nss_mode)67108864, .drdy=(stm32u3::spi::drdy_level)0}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)15, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)3}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)2, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)0, .exti=(stm32u3::gpio::exti_mode)1, .trigger=(stm32u3::gpio::exti_trigger)2}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)7, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)2}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)6, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)2}>, stm32u3::drivers::hw_options{.spi_drdy_gated=(bool)1, .cs_setup_us=(unsigned int)1}>::cb_
                         0x2000'13e8     0x4  Data  Wk  main.o [1]
 stm32u3::drivers::ads1262<stm32u3::spi::master<stm32u3::spi::spi1, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)1, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)2, .speed=(stm32u3::gpio::speed)3, .af=(unsigned char)5}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)4, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)2, .speed=(stm32u3::gpio::speed)3, .pull=(stm32u3::gpio::pull)1, .af=(unsigned char)5}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)5, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)2, .speed=(stm32u3::gpio::speed)3, .af=(unsigned char)5}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)15, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)3}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)2, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)0, .exti=(stm32u3::gpio::exti_mode)1, .trigger=(stm32u3::gpio::exti_trigger)2}>, stm32u3::spi::master_config{.prescaler=(stm32u3::spi::prescaler)1073741824, .phase=(stm32u3::spi::phase)16777216, .polarity=(stm32u3::spi::polarity)0, .datasize=(stm32u3::spi::datasize)7, .nss=(stm32u3::spi::nss_mode)67108864, .drdy=(stm32u3::spi::drdy_level)0}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)15, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)3}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)2, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)0, .exti=(stm32u3::gpio::exti_mode)1, .trigger=(stm32u3::gpio::exti_trigger)2}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)7, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)2}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)6, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)2}>, stm32u3::drivers::hw_options{.spi_drdy_gated=(bool)1, .cs_setup_us=(unsigned int)1}>::cfg_
                         0x2000'0000    0x10  Data  Wk  main.o [1]
 stm32u3::drivers::ads1262<stm32u3::spi::master<stm32u3::spi::spi1, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)1, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)2, .speed=(stm32u3::gpio::speed)3, .af=(unsigned char)5}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)4, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)2, .speed=(stm32u3::gpio::speed)3, .pull=(stm32u3::gpio::pull)1, .af=(unsigned char)5}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)5, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)2, .speed=(stm32u3::gpio::speed)3, .af=(unsigned char)5}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)15, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)3}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)2, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)0, .exti=(stm32u3::gpio::exti_mode)1, .trigger=(stm32u3::gpio::exti_trigger)2}>, stm32u3::spi::master_config{.prescaler=(stm32u3::spi::prescaler)1073741824, .phase=(stm32u3::spi::phase)16777216, .polarity=(stm32u3::spi::polarity)0, .datasize=(stm32u3::spi::datasize)7, .nss=(stm32u3::spi::nss_mode)67108864, .drdy=(stm32u3::spi::drdy_level)0}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)15, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)3}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)2, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)0, .exti=(stm32u3::gpio::exti_mode)1, .trigger=(stm32u3::gpio::exti_trigger)2}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)7, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)2}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)6, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)2}>, stm32u3::drivers::hw_options{.spi_drdy_gated=(bool)1, .cs_setup_us=(unsigned int)1}>::consume_settle()
-                         0x800'5561    0x1c  Code  Wk  main.o [1]
+                         0x800'5591    0x1c  Code  Wk  main.o [1]
 stm32u3::drivers::ads1262<stm32u3::spi::master<stm32u3::spi::spi1, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)1, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)2, .speed=(stm32u3::gpio::speed)3, .af=(unsigned char)5}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)4, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)2, .speed=(stm32u3::gpio::speed)3, .pull=(stm32u3::gpio::pull)1, .af=(unsigned char)5}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)5, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)2, .speed=(stm32u3::gpio::speed)3, .af=(unsigned char)5}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)15, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)3}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)2, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)0, .exti=(stm32u3::gpio::exti_mode)1, .trigger=(stm32u3::gpio::exti_trigger)2}>, stm32u3::spi::master_config{.prescaler=(stm32u3::spi::prescaler)1073741824, .phase=(stm32u3::spi::phase)16777216, .polarity=(stm32u3::spi::polarity)0, .datasize=(stm32u3::spi::datasize)7, .nss=(stm32u3::spi::nss_mode)67108864, .drdy=(stm32u3::spi::drdy_level)0}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)15, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)3}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)2, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)0, .exti=(stm32u3::gpio::exti_mode)1, .trigger=(stm32u3::gpio::exti_trigger)2}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)7, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)2}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)6, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)2}>, stm32u3::drivers::hw_options{.spi_drdy_gated=(bool)1, .cs_setup_us=(unsigned int)1}>::converting_
                         0x2000'1413     0x1  Data  Wk  main.o [1]
 stm32u3::drivers::ads1262<stm32u3::spi::master<stm32u3::spi::spi1, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)1, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)2, .speed=(stm32u3::gpio::speed)3, .af=(unsigned char)5}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)4, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)2, .speed=(stm32u3::gpio::speed)3, .pull=(stm32u3::gpio::pull)1, .af=(unsigned char)5}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)5, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)2, .speed=(stm32u3::gpio::speed)3, .af=(unsigned char)5}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)15, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)3}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)2, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)0, .exti=(stm32u3::gpio::exti_mode)1, .trigger=(stm32u3::gpio::exti_trigger)2}>, stm32u3::spi::master_config{.prescaler=(stm32u3::spi::prescaler)1073741824, .phase=(stm32u3::spi::phase)16777216, .polarity=(stm32u3::spi::polarity)0, .datasize=(stm32u3::spi::datasize)7, .nss=(stm32u3::spi::nss_mode)67108864, .drdy=(stm32u3::spi::drdy_level)0}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)15, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)3}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)2, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)0, .exti=(stm32u3::gpio::exti_mode)1, .trigger=(stm32u3::gpio::exti_trigger)2}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)7, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)2}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)6, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)2}>, stm32u3::drivers::hw_options{.spi_drdy_gated=(bool)1, .cs_setup_us=(unsigned int)1}>::crc_errors_
                         0x2000'13f0     0x4  Data  Wk  main.o [1]
 stm32u3::drivers::ads1262<stm32u3::spi::master<stm32u3::spi::spi1, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)1, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)2, .speed=(stm32u3::gpio::speed)3, .af=(unsigned char)5}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)4, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)2, .speed=(stm32u3::gpio::speed)3, .pull=(stm32u3::gpio::pull)1, .af=(unsigned char)5}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)5, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)2, .speed=(stm32u3::gpio::speed)3, .af=(unsigned char)5}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)15, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)3}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)2, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)0, .exti=(stm32u3::gpio::exti_mode)1, .trigger=(stm32u3::gpio::exti_trigger)2}>, stm32u3::spi::master_config{.prescaler=(stm32u3::spi::prescaler)1073741824, .phase=(stm32u3::spi::phase)16777216, .polarity=(stm32u3::spi::polarity)0, .datasize=(stm32u3::spi::datasize)7, .nss=(stm32u3::spi::nss_mode)67108864, .drdy=(stm32u3::spi::drdy_level)0}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)15, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)3}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)2, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)0, .exti=(stm32u3::gpio::exti_mode)1, .trigger=(stm32u3::gpio::exti_trigger)2}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)7, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)2}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)6, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)2}>, stm32u3::drivers::hw_options{.spi_drdy_gated=(bool)1, .cs_setup_us=(unsigned int)1}>::decode(std::array<unsigned char, (unsigned int)7> const &)
-                         0x800'54ed    0x74  Code  Wk  main.o [1]
+                         0x800'551d    0x74  Code  Wk  main.o [1]
 stm32u3::drivers::ads1262<stm32u3::spi::master<stm32u3::spi::spi1, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)1, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)2, .speed=(stm32u3::gpio::speed)3, .af=(unsigned char)5}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)4, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)2, .speed=(stm32u3::gpio::speed)3, .pull=(stm32u3::gpio::pull)1, .af=(unsigned char)5}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)5, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)2, .speed=(stm32u3::gpio::speed)3, .af=(unsigned char)5}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)15, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)3}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)2, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)0, .exti=(stm32u3::gpio::exti_mode)1, .trigger=(stm32u3::gpio::exti_trigger)2}>, stm32u3::spi::master_config{.prescaler=(stm32u3::spi::prescaler)1073741824, .phase=(stm32u3::spi::phase)16777216, .polarity=(stm32u3::spi::polarity)0, .datasize=(stm32u3::spi::datasize)7, .nss=(stm32u3::spi::nss_mode)67108864, .drdy=(stm32u3::spi::drdy_level)0}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)15, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)3}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)2, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)0, .exti=(stm32u3::gpio::exti_mode)1, .trigger=(stm32u3::gpio::exti_trigger)2}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)7, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)2}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)6, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)2}>, stm32u3::drivers::hw_options{.spi_drdy_gated=(bool)1, .cs_setup_us=(unsigned int)1}>::init(stm32u3::drivers::config const &)
-                         0x800'3c41   0x234  Code  Wk  main.o [1]
+                         0x800'3c69   0x234  Code  Wk  main.o [1]
 stm32u3::drivers::ads1262<stm32u3::spi::master<stm32u3::spi::spi1, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)1, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)2, .speed=(stm32u3::gpio::speed)3, .af=(unsigned char)5}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)4, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)2, .speed=(stm32u3::gpio::speed)3, .pull=(stm32u3::gpio::pull)1, .af=(unsigned char)5}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)5, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)2, .speed=(stm32u3::gpio::speed)3, .af=(unsigned char)5}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)15, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)3}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)2, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)0, .exti=(stm32u3::gpio::exti_mode)1, .trigger=(stm32u3::gpio::exti_trigger)2}>, stm32u3::spi::master_config{.prescaler=(stm32u3::spi::prescaler)1073741824, .phase=(stm32u3::spi::phase)16777216, .polarity=(stm32u3::spi::polarity)0, .datasize=(stm32u3::spi::datasize)7, .nss=(stm32u3::spi::nss_mode)67108864, .drdy=(stm32u3::spi::drdy_level)0}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)15, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)3}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)2, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)0, .exti=(stm32u3::gpio::exti_mode)1, .trigger=(stm32u3::gpio::exti_trigger)2}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)7, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)2}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)6, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)2}>, stm32u3::drivers::hw_options{.spi_drdy_gated=(bool)1, .cs_setup_us=(unsigned int)1}>::initialized_
                         0x2000'1412     0x1  Data  Wk  main.o [1]
 stm32u3::drivers::ads1262<stm32u3::spi::master<stm32u3::spi::spi1, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)1, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)2, .speed=(stm32u3::gpio::speed)3, .af=(unsigned char)5}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)4, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)2, .speed=(stm32u3::gpio::speed)3, .pull=(stm32u3::gpio::pull)1, .af=(unsigned char)5}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)5, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)2, .speed=(stm32u3::gpio::speed)3, .af=(unsigned char)5}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)15, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)3}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)2, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)0, .exti=(stm32u3::gpio::exti_mode)1, .trigger=(stm32u3::gpio::exti_trigger)2}>, stm32u3::spi::master_config{.prescaler=(stm32u3::spi::prescaler)1073741824, .phase=(stm32u3::spi::phase)16777216, .polarity=(stm32u3::spi::polarity)0, .datasize=(stm32u3::spi::datasize)7, .nss=(stm32u3::spi::nss_mode)67108864, .drdy=(stm32u3::spi::drdy_level)0}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)15, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)3}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)2, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)0, .exti=(stm32u3::gpio::exti_mode)1, .trigger=(stm32u3::gpio::exti_trigger)2}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)7, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)2}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)6, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)2}>, stm32u3::drivers::hw_options{.spi_drdy_gated=(bool)1, .cs_setup_us=(unsigned int)1}>::last_crc_ok_
@@ -444,25 +444,25 @@ stm32u3::drivers::ads1262<stm32u3::spi::master<stm32u3::spi::spi1, stm32u3::gpio
 stm32u3::drivers::ads1262<stm32u3::spi::master<stm32u3::spi::spi1, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)1, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)2, .speed=(stm32u3::gpio::speed)3, .af=(unsigned char)5}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)4, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)2, .speed=(stm32u3::gpio::speed)3, .pull=(stm32u3::gpio::pull)1, .af=(unsigned char)5}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)5, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)2, .speed=(stm32u3::gpio::speed)3, .af=(unsigned char)5}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)15, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)3}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)2, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)0, .exti=(stm32u3::gpio::exti_mode)1, .trigger=(stm32u3::gpio::exti_trigger)2}>, stm32u3::spi::master_config{.prescaler=(stm32u3::spi::prescaler)1073741824, .phase=(stm32u3::spi::phase)16777216, .polarity=(stm32u3::spi::polarity)0, .datasize=(stm32u3::spi::datasize)7, .nss=(stm32u3::spi::nss_mode)67108864, .drdy=(stm32u3::spi::drdy_level)0}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)15, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)3}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)2, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)0, .exti=(stm32u3::gpio::exti_mode)1, .trigger=(stm32u3::gpio::exti_trigger)2}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)7, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)2}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)6, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)2}>, stm32u3::drivers::hw_options{.spi_drdy_gated=(bool)1, .cs_setup_us=(unsigned int)1}>::mode_
                         0x2000'1415     0x1  Data  Wk  main.o [1]
 stm32u3::drivers::ads1262<stm32u3::spi::master<stm32u3::spi::spi1, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)1, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)2, .speed=(stm32u3::gpio::speed)3, .af=(unsigned char)5}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)4, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)2, .speed=(stm32u3::gpio::speed)3, .pull=(stm32u3::gpio::pull)1, .af=(unsigned char)5}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)5, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)2, .speed=(stm32u3::gpio::speed)3, .af=(unsigned char)5}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)15, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)3}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)2, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)0, .exti=(stm32u3::gpio::exti_mode)1, .trigger=(stm32u3::gpio::exti_trigger)2}>, stm32u3::spi::master_config{.prescaler=(stm32u3::spi::prescaler)1073741824, .phase=(stm32u3::spi::phase)16777216, .polarity=(stm32u3::spi::polarity)0, .datasize=(stm32u3::spi::datasize)7, .nss=(stm32u3::spi::nss_mode)67108864, .drdy=(stm32u3::spi::drdy_level)0}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)15, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)3}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)2, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)0, .exti=(stm32u3::gpio::exti_mode)1, .trigger=(stm32u3::gpio::exti_trigger)2}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)7, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)2}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)6, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)2}>, stm32u3::drivers::hw_options{.spi_drdy_gated=(bool)1, .cs_setup_us=(unsigned int)1}>::on_spi_complete(bool)
-                         0x800'53cd   0x120  Code  Wk  main.o [1]
+                         0x800'53fd   0x120  Code  Wk  main.o [1]
 stm32u3::drivers::ads1262<stm32u3::spi::master<stm32u3::spi::spi1, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)1, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)2, .speed=(stm32u3::gpio::speed)3, .af=(unsigned char)5}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)4, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)2, .speed=(stm32u3::gpio::speed)3, .pull=(stm32u3::gpio::pull)1, .af=(unsigned char)5}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)5, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)2, .speed=(stm32u3::gpio::speed)3, .af=(unsigned char)5}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)15, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)3}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)2, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)0, .exti=(stm32u3::gpio::exti_mode)1, .trigger=(stm32u3::gpio::exti_trigger)2}>, stm32u3::spi::master_config{.prescaler=(stm32u3::spi::prescaler)1073741824, .phase=(stm32u3::spi::phase)16777216, .polarity=(stm32u3::spi::polarity)0, .datasize=(stm32u3::spi::datasize)7, .nss=(stm32u3::spi::nss_mode)67108864, .drdy=(stm32u3::spi::drdy_level)0}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)15, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)3}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)2, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)0, .exti=(stm32u3::gpio::exti_mode)1, .trigger=(stm32u3::gpio::exti_trigger)2}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)7, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)2}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)6, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)2}>, stm32u3::drivers::hw_options{.spi_drdy_gated=(bool)1, .cs_setup_us=(unsigned int)1}>::rdata_frame
-                         0x800'5a3c     0x8  Data  Wk  main.o [1]
+                         0x800'5a6c     0x8  Data  Wk  main.o [1]
 stm32u3::drivers::ads1262<stm32u3::spi::master<stm32u3::spi::spi1, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)1, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)2, .speed=(stm32u3::gpio::speed)3, .af=(unsigned char)5}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)4, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)2, .speed=(stm32u3::gpio::speed)3, .pull=(stm32u3::gpio::pull)1, .af=(unsigned char)5}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)5, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)2, .speed=(stm32u3::gpio::speed)3, .af=(unsigned char)5}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)15, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)3}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)2, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)0, .exti=(stm32u3::gpio::exti_mode)1, .trigger=(stm32u3::gpio::exti_trigger)2}>, stm32u3::spi::master_config{.prescaler=(stm32u3::spi::prescaler)1073741824, .phase=(stm32u3::spi::phase)16777216, .polarity=(stm32u3::spi::polarity)0, .datasize=(stm32u3::spi::datasize)7, .nss=(stm32u3::spi::nss_mode)67108864, .drdy=(stm32u3::spi::drdy_level)0}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)15, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)3}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)2, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)0, .exti=(stm32u3::gpio::exti_mode)1, .trigger=(stm32u3::gpio::exti_trigger)2}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)7, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)2}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)6, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)2}>, stm32u3::drivers::hw_options{.spi_drdy_gated=(bool)1, .cs_setup_us=(unsigned int)1}>::read_raw_unchecked()
-                         0x800'40f5   0x1f0  Code  Wk  main.o [1]
+                         0x800'411d   0x1f0  Code  Wk  main.o [1]
 stm32u3::drivers::ads1262<stm32u3::spi::master<stm32u3::spi::spi1, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)1, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)2, .speed=(stm32u3::gpio::speed)3, .af=(unsigned char)5}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)4, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)2, .speed=(stm32u3::gpio::speed)3, .pull=(stm32u3::gpio::pull)1, .af=(unsigned char)5}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)5, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)2, .speed=(stm32u3::gpio::speed)3, .af=(unsigned char)5}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)15, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)3}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)2, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)0, .exti=(stm32u3::gpio::exti_mode)1, .trigger=(stm32u3::gpio::exti_trigger)2}>, stm32u3::spi::master_config{.prescaler=(stm32u3::spi::prescaler)1073741824, .phase=(stm32u3::spi::phase)16777216, .polarity=(stm32u3::spi::polarity)0, .datasize=(stm32u3::spi::datasize)7, .nss=(stm32u3::spi::nss_mode)67108864, .drdy=(stm32u3::spi::drdy_level)0}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)15, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)3}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)2, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)0, .exti=(stm32u3::gpio::exti_mode)1, .trigger=(stm32u3::gpio::exti_trigger)2}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)7, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)2}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)6, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)2}>, stm32u3::drivers::hw_options{.spi_drdy_gated=(bool)1, .cs_setup_us=(unsigned int)1}>::rx_frame_
                         0x2000'13c8     0x8  Data  Wk  main.o [1]
 stm32u3::drivers::ads1262<stm32u3::spi::master<stm32u3::spi::spi1, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)1, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)2, .speed=(stm32u3::gpio::speed)3, .af=(unsigned char)5}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)4, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)2, .speed=(stm32u3::gpio::speed)3, .pull=(stm32u3::gpio::pull)1, .af=(unsigned char)5}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)5, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)2, .speed=(stm32u3::gpio::speed)3, .af=(unsigned char)5}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)15, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)3}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)2, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)0, .exti=(stm32u3::gpio::exti_mode)1, .trigger=(stm32u3::gpio::exti_trigger)2}>, stm32u3::spi::master_config{.prescaler=(stm32u3::spi::prescaler)1073741824, .phase=(stm32u3::spi::phase)16777216, .polarity=(stm32u3::spi::polarity)0, .datasize=(stm32u3::spi::datasize)7, .nss=(stm32u3::spi::nss_mode)67108864, .drdy=(stm32u3::spi::drdy_level)0}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)15, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)3}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)2, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)0, .exti=(stm32u3::gpio::exti_mode)1, .trigger=(stm32u3::gpio::exti_trigger)2}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)7, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)2}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)6, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)2}>, stm32u3::drivers::hw_options{.spi_drdy_gated=(bool)1, .cs_setup_us=(unsigned int)1}>::samples_
                         0x2000'13ec     0x4  Data  Wk  main.o [1]
 stm32u3::drivers::ads1262<stm32u3::spi::master<stm32u3::spi::spi1, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)1, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)2, .speed=(stm32u3::gpio::speed)3, .af=(unsigned char)5}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)4, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)2, .speed=(stm32u3::gpio::speed)3, .pull=(stm32u3::gpio::pull)1, .af=(unsigned char)5}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)5, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)2, .speed=(stm32u3::gpio::speed)3, .af=(unsigned char)5}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)15, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)3}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)2, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)0, .exti=(stm32u3::gpio::exti_mode)1, .trigger=(stm32u3::gpio::exti_trigger)2}>, stm32u3::spi::master_config{.prescaler=(stm32u3::spi::prescaler)1073741824, .phase=(stm32u3::spi::phase)16777216, .polarity=(stm32u3::spi::polarity)0, .datasize=(stm32u3::spi::datasize)7, .nss=(stm32u3::spi::nss_mode)67108864, .drdy=(stm32u3::spi::drdy_level)0}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)15, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)3}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)2, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)0, .exti=(stm32u3::gpio::exti_mode)1, .trigger=(stm32u3::gpio::exti_trigger)2}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)7, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)2}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)6, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)2}>, stm32u3::drivers::hw_options{.spi_drdy_gated=(bool)1, .cs_setup_us=(unsigned int)1}>::set_input_mux(stm32u3::drivers::input_channel, stm32u3::drivers::input_channel)
-                         0x800'4001    0xf4  Code  Wk  main.o [1]
+                         0x800'4029    0xf4  Code  Wk  main.o [1]
 stm32u3::drivers::ads1262<stm32u3::spi::master<stm32u3::spi::spi1, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)1, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)2, .speed=(stm32u3::gpio::speed)3, .af=(unsigned char)5}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)4, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)2, .speed=(stm32u3::gpio::speed)3, .pull=(stm32u3::gpio::pull)1, .af=(unsigned char)5}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)5, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)2, .speed=(stm32u3::gpio::speed)3, .af=(unsigned char)5}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)15, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)3}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)2, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)0, .exti=(stm32u3::gpio::exti_mode)1, .trigger=(stm32u3::gpio::exti_trigger)2}>, stm32u3::spi::master_config{.prescaler=(stm32u3::spi::prescaler)1073741824, .phase=(stm32u3::spi::phase)16777216, .polarity=(stm32u3::spi::polarity)0, .datasize=(stm32u3::spi::datasize)7, .nss=(stm32u3::spi::nss_mode)67108864, .drdy=(stm32u3::spi::drdy_level)0}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)15, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)3}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)2, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)0, .exti=(stm32u3::gpio::exti_mode)1, .trigger=(stm32u3::gpio::exti_trigger)2}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)7, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)2}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)6, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)2}>, stm32u3::drivers::hw_options{.spi_drdy_gated=(bool)1, .cs_setup_us=(unsigned int)1}>::settle_remaining_
                         0x2000'1414     0x1  Data  Wk  main.o [1]
 stm32u3::drivers::ads1262<stm32u3::spi::master<stm32u3::spi::spi1, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)1, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)2, .speed=(stm32u3::gpio::speed)3, .af=(unsigned char)5}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)4, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)2, .speed=(stm32u3::gpio::speed)3, .pull=(stm32u3::gpio::pull)1, .af=(unsigned char)5}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)5, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)2, .speed=(stm32u3::gpio::speed)3, .af=(unsigned char)5}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)15, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)3}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)2, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)0, .exti=(stm32u3::gpio::exti_mode)1, .trigger=(stm32u3::gpio::exti_trigger)2}>, stm32u3::spi::master_config{.prescaler=(stm32u3::spi::prescaler)1073741824, .phase=(stm32u3::spi::phase)16777216, .polarity=(stm32u3::spi::polarity)0, .datasize=(stm32u3::spi::datasize)7, .nss=(stm32u3::spi::nss_mode)67108864, .drdy=(stm32u3::spi::drdy_level)0}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)15, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)3}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)2, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)0, .exti=(stm32u3::gpio::exti_mode)1, .trigger=(stm32u3::gpio::exti_trigger)2}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)7, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)2}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)6, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)2}>, stm32u3::drivers::hw_options{.spi_drdy_gated=(bool)1, .cs_setup_us=(unsigned int)1}>::spi_write(std::span<unsigned char const, (unsigned int)4294967295>)
-                         0x800'3e75    0xec  Code  Wk  main.o [1]
+                         0x800'3e9d    0xec  Code  Wk  main.o [1]
 stm32u3::drivers::ads1262<stm32u3::spi::master<stm32u3::spi::spi1, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)1, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)2, .speed=(stm32u3::gpio::speed)3, .af=(unsigned char)5}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)4, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)2, .speed=(stm32u3::gpio::speed)3, .pull=(stm32u3::gpio::pull)1, .af=(unsigned char)5}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)5, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)2, .speed=(stm32u3::gpio::speed)3, .af=(unsigned char)5}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)15, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)3}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)2, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)0, .exti=(stm32u3::gpio::exti_mode)1, .trigger=(stm32u3::gpio::exti_trigger)2}>, stm32u3::spi::master_config{.prescaler=(stm32u3::spi::prescaler)1073741824, .phase=(stm32u3::spi::phase)16777216, .polarity=(stm32u3::spi::polarity)0, .datasize=(stm32u3::spi::datasize)7, .nss=(stm32u3::spi::nss_mode)67108864, .drdy=(stm32u3::spi::drdy_level)0}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)15, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)3}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)2, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)0, .exti=(stm32u3::gpio::exti_mode)1, .trigger=(stm32u3::gpio::exti_trigger)2}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)7, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)2}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)6, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)2}>, stm32u3::drivers::hw_options{.spi_drdy_gated=(bool)1, .cs_setup_us=(unsigned int)1}>::start_conversion_raw()
-                         0x800'3f61    0xa0  Code  Wk  main.o [1]
+                         0x800'3f89    0xa0  Code  Wk  main.o [1]
 stm32u3::drivers::ads1262<stm32u3::spi::master<stm32u3::spi::spi1, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)1, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)2, .speed=(stm32u3::gpio::speed)3, .af=(unsigned char)5}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)4, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)2, .speed=(stm32u3::gpio::speed)3, .pull=(stm32u3::gpio::pull)1, .af=(unsigned char)5}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)5, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)2, .speed=(stm32u3::gpio::speed)3, .af=(unsigned char)5}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)15, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)3}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)2, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)0, .exti=(stm32u3::gpio::exti_mode)1, .trigger=(stm32u3::gpio::exti_trigger)2}>, stm32u3::spi::master_config{.prescaler=(stm32u3::spi::prescaler)1073741824, .phase=(stm32u3::spi::phase)16777216, .polarity=(stm32u3::spi::polarity)0, .datasize=(stm32u3::spi::datasize)7, .nss=(stm32u3::spi::nss_mode)67108864, .drdy=(stm32u3::spi::drdy_level)0}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)15, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)3}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)2, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)0, .exti=(stm32u3::gpio::exti_mode)1, .trigger=(stm32u3::gpio::exti_trigger)2}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)7, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)2}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)6, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)2}>, stm32u3::drivers::hw_options{.spi_drdy_gated=(bool)1, .cs_setup_us=(unsigned int)1}>::start_transfer()
-                         0x800'42e5   0x124  Code  Wk  main.o [1]
+                         0x800'430d   0x124  Code  Wk  main.o [1]
 stm32u3::drivers::ads1262<stm32u3::spi::master<stm32u3::spi::spi1, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)1, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)2, .speed=(stm32u3::gpio::speed)3, .af=(unsigned char)5}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)4, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)2, .speed=(stm32u3::gpio::speed)3, .pull=(stm32u3::gpio::pull)1, .af=(unsigned char)5}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)5, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)2, .speed=(stm32u3::gpio::speed)3, .af=(unsigned char)5}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)15, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)3}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)2, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)0, .exti=(stm32u3::gpio::exti_mode)1, .trigger=(stm32u3::gpio::exti_trigger)2}>, stm32u3::spi::master_config{.prescaler=(stm32u3::spi::prescaler)1073741824, .phase=(stm32u3::spi::phase)16777216, .polarity=(stm32u3::spi::polarity)0, .datasize=(stm32u3::spi::datasize)7, .nss=(stm32u3::spi::nss_mode)67108864, .drdy=(stm32u3::spi::drdy_level)0}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)15, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)3}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)2, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)0, .exti=(stm32u3::gpio::exti_mode)1, .trigger=(stm32u3::gpio::exti_trigger)2}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)7, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)2}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)6, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)2}>, stm32u3::drivers::hw_options{.spi_drdy_gated=(bool)1, .cs_setup_us=(unsigned int)1}>::stop_requested_
                         0x2000'1416     0x1  Data  Wk  main.o [1]
 stm32u3::drivers::ads1262<stm32u3::spi::master<stm32u3::spi::spi1, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)1, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)2, .speed=(stm32u3::gpio::speed)3, .af=(unsigned char)5}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)4, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)2, .speed=(stm32u3::gpio::speed)3, .pull=(stm32u3::gpio::pull)1, .af=(unsigned char)5}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)5, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)2, .speed=(stm32u3::gpio::speed)3, .af=(unsigned char)5}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)15, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)3}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)2, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)0, .exti=(stm32u3::gpio::exti_mode)1, .trigger=(stm32u3::gpio::exti_trigger)2}>, stm32u3::spi::master_config{.prescaler=(stm32u3::spi::prescaler)1073741824, .phase=(stm32u3::spi::phase)16777216, .polarity=(stm32u3::spi::polarity)0, .datasize=(stm32u3::spi::datasize)7, .nss=(stm32u3::spi::nss_mode)67108864, .drdy=(stm32u3::spi::drdy_level)0}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)15, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)3}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)2, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)0, .exti=(stm32u3::gpio::exti_mode)1, .trigger=(stm32u3::gpio::exti_trigger)2}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)7, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)2}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)6, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)2}>, stm32u3::drivers::hw_options{.spi_drdy_gated=(bool)1, .cs_setup_us=(unsigned int)1}>::transfer_errors_
@@ -472,81 +472,81 @@ stm32u3::drivers::ads1262<stm32u3::spi::master<stm32u3::spi::spi1, stm32u3::gpio
 stm32u3::drivers::ads1262<stm32u3::spi::master<stm32u3::spi::spi1, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)1, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)2, .speed=(stm32u3::gpio::speed)3, .af=(unsigned char)5}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)4, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)2, .speed=(stm32u3::gpio::speed)3, .pull=(stm32u3::gpio::pull)1, .af=(unsigned char)5}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)5, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)2, .speed=(stm32u3::gpio::speed)3, .af=(unsigned char)5}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)15, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)3}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)2, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)0, .exti=(stm32u3::gpio::exti_mode)1, .trigger=(stm32u3::gpio::exti_trigger)2}>, stm32u3::spi::master_config{.prescaler=(stm32u3::spi::prescaler)1073741824, .phase=(stm32u3::spi::phase)16777216, .polarity=(stm32u3::spi::polarity)0, .datasize=(stm32u3::spi::datasize)7, .nss=(stm32u3::spi::nss_mode)67108864, .drdy=(stm32u3::spi::drdy_level)0}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)15, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)3}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)2, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)0, .exti=(stm32u3::gpio::exti_mode)1, .trigger=(stm32u3::gpio::exti_trigger)2}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)7, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)2}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)6, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)2}>, stm32u3::drivers::hw_options{.spi_drdy_gated=(bool)1, .cs_setup_us=(unsigned int)1}>::vref_
                         0x2000'0010     0x4  Data  Wk  main.o [1]
 stm32u3::drivers::ads1262_constants::crc8_table
-                         0x800'557c   0x100  Data  Wk  main.o [1]
+                         0x800'55ac   0x100  Data  Wk  main.o [1]
 stm32u3::drivers::data_rate_sps_x10
-                         0x800'56c4    0x40  Data  Wk  main.o [1]
+                         0x800'56f4    0x40  Data  Wk  main.o [1]
 stm32u3::fdcan::Driver<stm32u3::fdcan::Fdcan1Instance, (unsigned int)8>::decode(stm32u3::fdcan::hw::RxElement const &, unsigned int, unsigned int, stm32u3::fdcan::Frame &)
-                         0x800'46ed    0xb8  Code  Wk  main.o [1]
+                         0x800'46e1    0xb8  Code  Wk  main.o [1]
 stm32u3::fdcan::Driver<stm32u3::fdcan::Fdcan1Instance, (unsigned int)8>::events_
                         0x2000'1408     0x4  Data  Wk  main.o [1]
 stm32u3::fdcan::Driver<stm32u3::fdcan::Fdcan1Instance, (unsigned int)8>::init(stm32u3::fdcan::Config const &)
-                         0x800'2bb9   0x284  Code  Wk  main.o [1]
+                         0x800'2be9   0x284  Code  Wk  main.o [1]
 stm32u3::fdcan::Driver<stm32u3::fdcan::Fdcan1Instance, (unsigned int)8>::rx_queue_
                         0x2000'001c   0x268  Data  Wk  main.o [1]
 stm32u3::fdcan::Driver<stm32u3::fdcan::Fdcan1Instance, (unsigned int)8>::send(stm32u3::fdcan::Frame const &)
-                         0x800'3431    0xfc  Code  Wk  main.o [1]
+                         0x800'339d    0xfc  Code  Wk  main.o [1]
 stm32u3::fdcan::Driver<stm32u3::fdcan::Fdcan1Instance, (unsigned int)8>::stats_
                         0x2000'13bc     0xc  Data  Wk  main.o [1]
 stm32u3::fdcan::data_limits
-                         0x800'5a2c    0x10  Data  Wk  main.o [1]
+                         0x800'5a5c    0x10  Data  Wk  main.o [1]
 stm32u3::fdcan::dlc_from_length(unsigned int)
-                         0x800'4619    0x50  Code  Wk  main.o [1]
+                         0x800'460d    0x50  Code  Wk  main.o [1]
 stm32u3::fdcan::dlc_to_length
-                         0x800'5a0c    0x10  Data  Wk  main.o [1]
+                         0x800'5a3c    0x10  Data  Wk  main.o [1]
 stm32u3::fdcan::is_valid(stm32u3::fdcan::BitTiming const &, stm32u3::fdcan::BitTimingLimits const &)
-                         0x800'4409    0x36  Code  Wk  main.o [1]
+                         0x800'4431    0x36  Code  Wk  main.o [1]
 stm32u3::fdcan::nominal_limits
-                         0x800'5a1c    0x10  Data  Wk  main.o [1]
+                         0x800'5a4c    0x10  Data  Wk  main.o [1]
 stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)2, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)0, .exti=(stm32u3::gpio::exti_mode)1, .trigger=(stm32u3::gpio::exti_trigger)2}>::init()
-                         0x800'3bd9    0x60  Code  Wk  main.o [1]
+                         0x800'3c01    0x60  Code  Wk  main.o [1]
 stm32u3::qspi::command::ccr() const
-                         0x800'4589    0x5a  Code  Wk  main.o [1]
+                         0x800'45b1    0x5a  Code  Wk  main.o [1]
 stm32u3::qspi::controller<(unsigned int)2415919104, (IRQn_Type)76, stm32u3::qspi::w25q512jv::device_traits, stm32u3::gpdma::channel<(unsigned int)9>, stm32u3::gpdma::channel<(unsigned int)10>, (unsigned int)29, (unsigned int)29, (unsigned int)3>::init(DLYB_TypeDef *)
-                         0x800'1bc1   0x288  Code  Wk  main.o [1]
+                         0x800'1bf1   0x288  Code  Wk  main.o [1]
 stm32u3::qspi::controller<(unsigned int)2415919104, (IRQn_Type)76, stm32u3::qspi::w25q512jv::device_traits, stm32u3::gpdma::channel<(unsigned int)9>, stm32u3::gpdma::channel<(unsigned int)10>, (unsigned int)29, (unsigned int)29, (unsigned int)3>::memory_mapped(stm32u3::qspi::command const &, stm32u3::qspi::command const &, unsigned int, unsigned int)
-                         0x800'3235    0x9c  Code  Wk  main.o [1]
+                         0x800'3265    0x9c  Code  Wk  main.o [1]
 stm32u3::qspi::controller<(unsigned int)2415919104, (IRQn_Type)76, stm32u3::qspi::w25q512jv::device_traits, stm32u3::gpdma::channel<(unsigned int)9>, stm32u3::gpdma::channel<(unsigned int)10>, (unsigned int)29, (unsigned int)29, (unsigned int)3>::read_blocking(stm32u3::qspi::command const &, unsigned int, unsigned int, std::span<unsigned char, (unsigned int)4294967295>)
-                         0x800'3139    0xfc  Code  Wk  main.o [1]
+                         0x800'3169    0xfc  Code  Wk  main.o [1]
 stm32u3::qspi::controller<(unsigned int)2415919104, (IRQn_Type)76, stm32u3::qspi::w25q512jv::device_traits, stm32u3::gpdma::channel<(unsigned int)9>, stm32u3::gpdma::channel<(unsigned int)10>, (unsigned int)29, (unsigned int)29, (unsigned int)3>::s_busy
                         0x2000'141a     0x1  Data  Wk  main.o [1]
 stm32u3::qspi::controller<(unsigned int)2415919104, (IRQn_Type)76, stm32u3::qspi::w25q512jv::device_traits, stm32u3::gpdma::channel<(unsigned int)9>, stm32u3::gpdma::channel<(unsigned int)10>, (unsigned int)29, (unsigned int)29, (unsigned int)3>::s_callback
                         0x2000'1404     0x4  Data  Wk  main.o [1]
 stm32u3::qspi::controller<(unsigned int)2415919104, (IRQn_Type)76, stm32u3::qspi::w25q512jv::device_traits, stm32u3::gpdma::channel<(unsigned int)9>, stm32u3::gpdma::channel<(unsigned int)10>, (unsigned int)29, (unsigned int)29, (unsigned int)3>::write_blocking(stm32u3::qspi::command const &, unsigned int, unsigned int, std::span<unsigned char const, (unsigned int)4294967295>)
-                         0x800'4441    0xf8  Code  Wk  main.o [1]
+                         0x800'4469    0xf8  Code  Wk  main.o [1]
 stm32u3::qspi::w25q512jv::cmd_enable_reset
-                         0x800'5790    0x28  Data  Wk  main.o [1]
+                         0x800'57c0    0x28  Data  Wk  main.o [1]
 stm32u3::qspi::w25q512jv::cmd_fast_read_quad_output_4b
-                         0x800'5880    0x28  Data  Wk  main.o [1]
+                         0x800'58b0    0x28  Data  Wk  main.o [1]
 stm32u3::qspi::w25q512jv::cmd_jedec_id
-                         0x800'5858    0x28  Data  Wk  main.o [1]
+                         0x800'5888    0x28  Data  Wk  main.o [1]
 stm32u3::qspi::w25q512jv::cmd_quad_page_program_4b
-                         0x800'58a8    0x28  Data  Wk  main.o [1]
+                         0x800'58d8    0x28  Data  Wk  main.o [1]
 stm32u3::qspi::w25q512jv::cmd_read_status1
-                         0x800'57e0    0x28  Data  Wk  main.o [1]
+                         0x800'5810    0x28  Data  Wk  main.o [1]
 stm32u3::qspi::w25q512jv::cmd_read_status2
-                         0x800'5808    0x28  Data  Wk  main.o [1]
+                         0x800'5838    0x28  Data  Wk  main.o [1]
 stm32u3::qspi::w25q512jv::cmd_reset_device
-                         0x800'57b8    0x28  Data  Wk  main.o [1]
+                         0x800'57e8    0x28  Data  Wk  main.o [1]
 stm32u3::qspi::w25q512jv::cmd_write_enable
-                         0x800'5768    0x28  Data  Wk  main.o [1]
+                         0x800'5798    0x28  Data  Wk  main.o [1]
 stm32u3::qspi::w25q512jv::cmd_write_status2
-                         0x800'5830    0x28  Data  Wk  main.o [1]
+                         0x800'5860    0x28  Data  Wk  main.o [1]
 stm32u3::qspi::w25q512jv::driver<stm32u3::qspi::controller<(unsigned int)2415919104, (IRQn_Type)76, stm32u3::qspi::w25q512jv::device_traits, stm32u3::gpdma::channel<(unsigned int)9>, stm32u3::gpdma::channel<(unsigned int)10>, (unsigned int)29, (unsigned int)29, (unsigned int)3>, stm32u3::qspi::w25q512jv::default_timeouts>::do_send(stm32u3::qspi::command const &, unsigned int)
-                         0x800'2e3d    0xbc  Code  Wk  main.o [1]
+                         0x800'2e6d    0xbc  Code  Wk  main.o [1]
 stm32u3::qspi::w25q512jv::driver<stm32u3::qspi::controller<(unsigned int)2415919104, (IRQn_Type)76, stm32u3::qspi::w25q512jv::device_traits, stm32u3::gpdma::channel<(unsigned int)9>, stm32u3::gpdma::channel<(unsigned int)10>, (unsigned int)29, (unsigned int)29, (unsigned int)3>, stm32u3::qspi::w25q512jv::default_timeouts>::ensure_quad_enabled()
-                         0x800'2fbd   0x17c  Code  Wk  main.o [1]
+                         0x800'2fed   0x17c  Code  Wk  main.o [1]
 stm32u3::qspi::w25q512jv::driver<stm32u3::qspi::controller<(unsigned int)2415919104, (IRQn_Type)76, stm32u3::qspi::w25q512jv::device_traits, stm32u3::gpdma::channel<(unsigned int)9>, stm32u3::gpdma::channel<(unsigned int)10>, (unsigned int)29, (unsigned int)29, (unsigned int)3>, stm32u3::qspi::w25q512jv::default_timeouts>::read_reg(stm32u3::qspi::command const &, unsigned char &)
-                         0x800'4539    0x50  Code  Wk  main.o [1]
+                         0x800'4561    0x50  Code  Wk  main.o [1]
 stm32u3::qspi::w25q512jv::driver<stm32u3::qspi::controller<(unsigned int)2415919104, (IRQn_Type)76, stm32u3::qspi::w25q512jv::device_traits, stm32u3::gpdma::channel<(unsigned int)9>, stm32u3::gpdma::channel<(unsigned int)10>, (unsigned int)29, (unsigned int)29, (unsigned int)3>, stm32u3::qspi::w25q512jv::default_timeouts>::s_mapped
                         0x2000'141c     0x1  Data  Wk  main.o [1]
 stm32u3::qspi::w25q512jv::driver<stm32u3::qspi::controller<(unsigned int)2415919104, (IRQn_Type)76, stm32u3::qspi::w25q512jv::device_traits, stm32u3::gpdma::channel<(unsigned int)9>, stm32u3::gpdma::channel<(unsigned int)10>, (unsigned int)29, (unsigned int)29, (unsigned int)3>, stm32u3::qspi::w25q512jv::default_timeouts>::s_pending
                         0x2000'141b     0x1  Data  Wk  main.o [1]
 stm32u3::qspi::w25q512jv::driver<stm32u3::qspi::controller<(unsigned int)2415919104, (IRQn_Type)76, stm32u3::qspi::w25q512jv::device_traits, stm32u3::gpdma::channel<(unsigned int)9>, stm32u3::gpdma::channel<(unsigned int)10>, (unsigned int)29, (unsigned int)29, (unsigned int)3>, stm32u3::qspi::w25q512jv::default_timeouts>::verify_jedec_id()
-                         0x800'2ef9    0xc4  Code  Wk  main.o [1]
+                         0x800'2f29    0xc4  Code  Wk  main.o [1]
 stm32u3::qspi::w25q512jv::jedec_device_ids
-                         0x800'5a54     0x4  Data  Wk  main.o [1]
+                         0x800'5a84     0x4  Data  Wk  main.o [1]
 stm32u3::sensors::idac_amps(stm32u3::sensors::idac_current) noexcept::table
-                         0x800'573c    0x2c  Data  Lc  main.o [1]
+                         0x800'576c    0x2c  Data  Lc  main.o [1]
 stm32u3::sensors::pt1000_channel<stm32u3::drivers::ads1262<stm32u3::spi::master<stm32u3::spi::spi1, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)1, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)2, .speed=(stm32u3::gpio::speed)3, .af=(unsigned char)5}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)4, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)2, .speed=(stm32u3::gpio::speed)3, .pull=(stm32u3::gpio::pull)1, .af=(unsigned char)5}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)5, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)2, .speed=(stm32u3::gpio::speed)3, .af=(unsigned char)5}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)15, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)3}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)2, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)0, .exti=(stm32u3::gpio::exti_mode)1, .trigger=(stm32u3::gpio::exti_trigger)2}>, stm32u3::spi::master_config{.prescaler=(stm32u3::spi::prescaler)1073741824, .phase=(stm32u3::spi::phase)16777216, .polarity=(stm32u3::spi::polarity)0, .datasize=(stm32u3::spi::datasize)7, .nss=(stm32u3::spi::nss_mode)67108864, .drdy=(stm32u3::spi::drdy_level)0}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)15, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)3}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)2, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)0, .exti=(stm32u3::gpio::exti_mode)1, .trigger=(stm32u3::gpio::exti_trigger)2}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)7, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)2}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)6, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)2}>, stm32u3::drivers::hw_options{.spi_drdy_gated=(bool)1, .cs_setup_us=(unsigned int)1}>, (unsigned int)16>::cal_count_
                         0x2000'13fc     0x4  Data  Wk  main.o [1]
 stm32u3::sensors::pt1000_channel<stm32u3::drivers::ads1262<stm32u3::spi::master<stm32u3::spi::spi1, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)1, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)2, .speed=(stm32u3::gpio::speed)3, .af=(unsigned char)5}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)4, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)2, .speed=(stm32u3::gpio::speed)3, .pull=(stm32u3::gpio::pull)1, .af=(unsigned char)5}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)5, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)2, .speed=(stm32u3::gpio::speed)3, .af=(unsigned char)5}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)15, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)3}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)2, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)0, .exti=(stm32u3::gpio::exti_mode)1, .trigger=(stm32u3::gpio::exti_trigger)2}>, stm32u3::spi::master_config{.prescaler=(stm32u3::spi::prescaler)1073741824, .phase=(stm32u3::spi::phase)16777216, .polarity=(stm32u3::spi::polarity)0, .datasize=(stm32u3::spi::datasize)7, .nss=(stm32u3::spi::nss_mode)67108864, .drdy=(stm32u3::spi::drdy_level)0}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)15, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)3}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)2, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)0, .exti=(stm32u3::gpio::exti_mode)1, .trigger=(stm32u3::gpio::exti_trigger)2}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)7, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)2}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)6, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)2}>, stm32u3::drivers::hw_options{.spi_drdy_gated=(bool)1, .cs_setup_us=(unsigned int)1}>, (unsigned int)16>::cal_table_
@@ -554,19 +554,19 @@ stm32u3::sensors::pt1000_channel<stm32u3::drivers::ads1262<stm32u3::spi::master<
 stm32u3::sensors::pt1000_channel<stm32u3::drivers::ads1262<stm32u3::spi::master<stm32u3::spi::spi1, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)1, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)2, .speed=(stm32u3::gpio::speed)3, .af=(unsigned char)5}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)4, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)2, .speed=(stm32u3::gpio::speed)3, .pull=(stm32u3::gpio::pull)1, .af=(unsigned char)5}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)5, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)2, .speed=(stm32u3::gpio::speed)3, .af=(unsigned char)5}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)15, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)3}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)2, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)0, .exti=(stm32u3::gpio::exti_mode)1, .trigger=(stm32u3::gpio::exti_trigger)2}>, stm32u3::spi::master_config{.prescaler=(stm32u3::spi::prescaler)1073741824, .phase=(stm32u3::spi::phase)16777216, .polarity=(stm32u3::spi::polarity)0, .datasize=(stm32u3::spi::datasize)7, .nss=(stm32u3::spi::nss_mode)67108864, .drdy=(stm32u3::spi::drdy_level)0}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)15, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)3}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)2, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)0, .exti=(stm32u3::gpio::exti_mode)1, .trigger=(stm32u3::gpio::exti_trigger)2}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)7, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)2}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)6, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)2}>, stm32u3::drivers::hw_options{.spi_drdy_gated=(bool)1, .cs_setup_us=(unsigned int)1}>, (unsigned int)16>::callback_
                         0x2000'1400     0x4  Data  Wk  main.o [1]
 stm32u3::sensors::pt1000_channel<stm32u3::drivers::ads1262<stm32u3::spi::master<stm32u3::spi::spi1, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)1, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)2, .speed=(stm32u3::gpio::speed)3, .af=(unsigned char)5}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)4, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)2, .speed=(stm32u3::gpio::speed)3, .pull=(stm32u3::gpio::pull)1, .af=(unsigned char)5}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)5, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)2, .speed=(stm32u3::gpio::speed)3, .af=(unsigned char)5}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)15, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)3}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)2, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)0, .exti=(stm32u3::gpio::exti_mode)1, .trigger=(stm32u3::gpio::exti_trigger)2}>, stm32u3::spi::master_config{.prescaler=(stm32u3::spi::prescaler)1073741824, .phase=(stm32u3::spi::phase)16777216, .polarity=(stm32u3::spi::polarity)0, .datasize=(stm32u3::spi::datasize)7, .nss=(stm32u3::spi::nss_mode)67108864, .drdy=(stm32u3::spi::drdy_level)0}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)15, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)3}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)2, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)0, .exti=(stm32u3::gpio::exti_mode)1, .trigger=(stm32u3::gpio::exti_trigger)2}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)7, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)2}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)6, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)2}>, stm32u3::drivers::hw_options{.spi_drdy_gated=(bool)1, .cs_setup_us=(unsigned int)1}>, (unsigned int)16>::convert(int, stm32u3::sensors::sample_status)
-                         0x800'4b45   0x2fc  Code  Wk  main.o [1]
+                         0x800'4b75   0x2fc  Code  Wk  main.o [1]
 stm32u3::sensors::pt1000_channel<stm32u3::drivers::ads1262<stm32u3::spi::master<stm32u3::spi::spi1, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)1, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)2, .speed=(stm32u3::gpio::speed)3, .af=(unsigned char)5}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)4, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)2, .speed=(stm32u3::gpio::speed)3, .pull=(stm32u3::gpio::pull)1, .af=(unsigned char)5}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)5, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)2, .speed=(stm32u3::gpio::speed)3, .af=(unsigned char)5}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)15, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)3}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)2, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)0, .exti=(stm32u3::gpio::exti_mode)1, .trigger=(stm32u3::gpio::exti_trigger)2}>, stm32u3::spi::master_config{.prescaler=(stm32u3::spi::prescaler)1073741824, .phase=(stm32u3::spi::phase)16777216, .polarity=(stm32u3::spi::polarity)0, .datasize=(stm32u3::spi::datasize)7, .nss=(stm32u3::spi::nss_mode)67108864, .drdy=(stm32u3::spi::drdy_level)0}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)15, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)3}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)2, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)0, .exti=(stm32u3::gpio::exti_mode)1, .trigger=(stm32u3::gpio::exti_trigger)2}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)7, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)2}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)6, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)2}>, stm32u3::drivers::hw_options{.spi_drdy_gated=(bool)1, .cs_setup_us=(unsigned int)1}>, (unsigned int)16>::initialized_
                         0x2000'1419     0x1  Data  Wk  main.o [1]
 stm32u3::sensors::pt1000_channel<stm32u3::drivers::ads1262<stm32u3::spi::master<stm32u3::spi::spi1, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)1, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)2, .speed=(stm32u3::gpio::speed)3, .af=(unsigned char)5}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)4, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)2, .speed=(stm32u3::gpio::speed)3, .pull=(stm32u3::gpio::pull)1, .af=(unsigned char)5}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)5, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)2, .speed=(stm32u3::gpio::speed)3, .af=(unsigned char)5}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)15, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)3}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)2, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)0, .exti=(stm32u3::gpio::exti_mode)1, .trigger=(stm32u3::gpio::exti_trigger)2}>, stm32u3::spi::master_config{.prescaler=(stm32u3::spi::prescaler)1073741824, .phase=(stm32u3::spi::phase)16777216, .polarity=(stm32u3::spi::polarity)0, .datasize=(stm32u3::spi::datasize)7, .nss=(stm32u3::spi::nss_mode)67108864, .drdy=(stm32u3::spi::drdy_level)0}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)15, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)3}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)2, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)0, .exti=(stm32u3::gpio::exti_mode)1, .trigger=(stm32u3::gpio::exti_trigger)2}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)7, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)2}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)6, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)2}>, stm32u3::drivers::hw_options{.spi_drdy_gated=(bool)1, .cs_setup_us=(unsigned int)1}>, (unsigned int)16>::last_adc_error_
                         0x2000'1418     0x1  Data  Wk  main.o [1]
 stm32u3::sensors::pt1000_channel<stm32u3::drivers::ads1262<stm32u3::spi::master<stm32u3::spi::spi1, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)1, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)2, .speed=(stm32u3::gpio::speed)3, .af=(unsigned char)5}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)4, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)2, .speed=(stm32u3::gpio::speed)3, .pull=(stm32u3::gpio::pull)1, .af=(unsigned char)5}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)5, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)2, .speed=(stm32u3::gpio::speed)3, .af=(unsigned char)5}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)15, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)3}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)2, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)0, .exti=(stm32u3::gpio::exti_mode)1, .trigger=(stm32u3::gpio::exti_trigger)2}>, stm32u3::spi::master_config{.prescaler=(stm32u3::spi::prescaler)1073741824, .phase=(stm32u3::spi::phase)16777216, .polarity=(stm32u3::spi::polarity)0, .datasize=(stm32u3::spi::datasize)7, .nss=(stm32u3::spi::nss_mode)67108864, .drdy=(stm32u3::spi::drdy_level)0}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)15, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)3}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)2, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)0, .exti=(stm32u3::gpio::exti_mode)1, .trigger=(stm32u3::gpio::exti_trigger)2}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)7, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)2}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)6, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)2}>, stm32u3::drivers::hw_options{.spi_drdy_gated=(bool)1, .cs_setup_us=(unsigned int)1}>, (unsigned int)16>::on_adc_sample(stm32u3::drivers::sample const &)
-                         0x800'567d    0x48  Code  Wk  main.o [1]
+                         0x800'56ad    0x48  Code  Wk  main.o [1]
 stm32u3::sensors::pt1000_channel<stm32u3::drivers::ads1262<stm32u3::spi::master<stm32u3::spi::spi1, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)1, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)2, .speed=(stm32u3::gpio::speed)3, .af=(unsigned char)5}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)4, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)2, .speed=(stm32u3::gpio::speed)3, .pull=(stm32u3::gpio::pull)1, .af=(unsigned char)5}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)5, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)2, .speed=(stm32u3::gpio::speed)3, .af=(unsigned char)5}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)15, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)3}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)2, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)0, .exti=(stm32u3::gpio::exti_mode)1, .trigger=(stm32u3::gpio::exti_trigger)2}>, stm32u3::spi::master_config{.prescaler=(stm32u3::spi::prescaler)1073741824, .phase=(stm32u3::spi::phase)16777216, .polarity=(stm32u3::spi::polarity)0, .datasize=(stm32u3::spi::datasize)7, .nss=(stm32u3::spi::nss_mode)67108864, .drdy=(stm32u3::spi::drdy_level)0}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)15, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)3}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)2, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)0, .exti=(stm32u3::gpio::exti_mode)1, .trigger=(stm32u3::gpio::exti_trigger)2}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)7, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)2}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)6, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)2}>, stm32u3::drivers::hw_options{.spi_drdy_gated=(bool)1, .cs_setup_us=(unsigned int)1}>, (unsigned int)16>::rref_ohms_
                         0x2000'13f8     0x4  Data  Wk  main.o [1]
 stm32u3::sensors::pt1000_channel<stm32u3::drivers::ads1262<stm32u3::spi::master<stm32u3::spi::spi1, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)1, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)2, .speed=(stm32u3::gpio::speed)3, .af=(unsigned char)5}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)4, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)2, .speed=(stm32u3::gpio::speed)3, .pull=(stm32u3::gpio::pull)1, .af=(unsigned char)5}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)5, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)2, .speed=(stm32u3::gpio::speed)3, .af=(unsigned char)5}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)15, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)3}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)2, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)0, .exti=(stm32u3::gpio::exti_mode)1, .trigger=(stm32u3::gpio::exti_trigger)2}>, stm32u3::spi::master_config{.prescaler=(stm32u3::spi::prescaler)1073741824, .phase=(stm32u3::spi::phase)16777216, .polarity=(stm32u3::spi::polarity)0, .datasize=(stm32u3::spi::datasize)7, .nss=(stm32u3::spi::nss_mode)67108864, .drdy=(stm32u3::spi::drdy_level)0}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)15, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)3}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)2, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)0, .exti=(stm32u3::gpio::exti_mode)1, .trigger=(stm32u3::gpio::exti_trigger)2}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)7, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)2}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)6, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)2}>, stm32u3::drivers::hw_options{.spi_drdy_gated=(bool)1, .cs_setup_us=(unsigned int)1}>, (unsigned int)16>::setup(stm32u3::sensors::channel_config const &)
-                         0x800'2105   0x900  Code  Wk  main.o [1]
+                         0x800'2135   0x900  Code  Wk  main.o [1]
 stm32u3::sensors::pt1000_channel<stm32u3::drivers::ads1262<stm32u3::spi::master<stm32u3::spi::spi1, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)1, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)2, .speed=(stm32u3::gpio::speed)3, .af=(unsigned char)5}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)4, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)2, .speed=(stm32u3::gpio::speed)3, .pull=(stm32u3::gpio::pull)1, .af=(unsigned char)5}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)5, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)2, .speed=(stm32u3::gpio::speed)3, .af=(unsigned char)5}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)15, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)3}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)2, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)0, .exti=(stm32u3::gpio::exti_mode)1, .trigger=(stm32u3::gpio::exti_trigger)2}>, stm32u3::spi::master_config{.prescaler=(stm32u3::spi::prescaler)1073741824, .phase=(stm32u3::spi::phase)16777216, .polarity=(stm32u3::spi::polarity)0, .datasize=(stm32u3::spi::datasize)7, .nss=(stm32u3::spi::nss_mode)67108864, .drdy=(stm32u3::spi::drdy_level)0}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)15, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)3}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)2, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)0, .exti=(stm32u3::gpio::exti_mode)1, .trigger=(stm32u3::gpio::exti_trigger)2}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)7, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)2}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)6, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)2}>, stm32u3::drivers::hw_options{.spi_drdy_gated=(bool)1, .cs_setup_us=(unsigned int)1}>, (unsigned int)16>::start_streaming(void (*)(stm32u3::sensors::reading const &) noexcept)
-                         0x800'2a05   0x124  Code  Wk  main.o [1]
+                         0x800'2a35   0x124  Code  Wk  main.o [1]
 stm32u3::sensors::pt1000_channel<stm32u3::drivers::ads1262<stm32u3::spi::master<stm32u3::spi::spi1, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)1, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)2, .speed=(stm32u3::gpio::speed)3, .af=(unsigned char)5}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)4, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)2, .speed=(stm32u3::gpio::speed)3, .pull=(stm32u3::gpio::pull)1, .af=(unsigned char)5}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)5, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)2, .speed=(stm32u3::gpio::speed)3, .af=(unsigned char)5}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)15, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)3}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)2, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)0, .exti=(stm32u3::gpio::exti_mode)1, .trigger=(stm32u3::gpio::exti_trigger)2}>, stm32u3::spi::master_config{.prescaler=(stm32u3::spi::prescaler)1073741824, .phase=(stm32u3::spi::phase)16777216, .polarity=(stm32u3::spi::polarity)0, .datasize=(stm32u3::spi::datasize)7, .nss=(stm32u3::spi::nss_mode)67108864, .drdy=(stm32u3::spi::drdy_level)0}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)15, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)3}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)2, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)0, .exti=(stm32u3::gpio::exti_mode)1, .trigger=(stm32u3::gpio::exti_trigger)2}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)7, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)2}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)6, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)2}>, stm32u3::drivers::hw_options{.spi_drdy_gated=(bool)1, .cs_setup_us=(unsigned int)1}>, (unsigned int)16>::step_
                         0x2000'1417     0x1  Data  Wk  main.o [1]
 stm32u3::spi::master<stm32u3::spi::spi1, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)1, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)2, .speed=(stm32u3::gpio::speed)3, .af=(unsigned char)5}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)4, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)2, .speed=(stm32u3::gpio::speed)3, .pull=(stm32u3::gpio::pull)1, .af=(unsigned char)5}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)5, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)2, .speed=(stm32u3::gpio::speed)3, .af=(unsigned char)5}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)15, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)3}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)2, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)0, .exti=(stm32u3::gpio::exti_mode)1, .trigger=(stm32u3::gpio::exti_trigger)2}>, stm32u3::spi::master_config{.prescaler=(stm32u3::spi::prescaler)1073741824, .phase=(stm32u3::spi::phase)16777216, .polarity=(stm32u3::spi::polarity)0, .datasize=(stm32u3::spi::datasize)7, .nss=(stm32u3::spi::nss_mode)67108864, .drdy=(stm32u3::spi::drdy_level)0}>::busy_
@@ -576,11 +576,11 @@ stm32u3::spi::master<stm32u3::spi::spi1, stm32u3::gpio::pin<stm32u3::gpio::port_
 stm32u3::spi::master<stm32u3::spi::spi1, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)1, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)2, .speed=(stm32u3::gpio::speed)3, .af=(unsigned char)5}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)4, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)2, .speed=(stm32u3::gpio::speed)3, .pull=(stm32u3::gpio::pull)1, .af=(unsigned char)5}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)5, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)2, .speed=(stm32u3::gpio::speed)3, .af=(unsigned char)5}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)15, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)3}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)2, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)0, .exti=(stm32u3::gpio::exti_mode)1, .trigger=(stm32u3::gpio::exti_trigger)2}>, stm32u3::spi::master_config{.prescaler=(stm32u3::spi::prescaler)1073741824, .phase=(stm32u3::spi::phase)16777216, .polarity=(stm32u3::spi::polarity)0, .datasize=(stm32u3::spi::datasize)7, .nss=(stm32u3::spi::nss_mode)67108864, .drdy=(stm32u3::spi::drdy_level)0}>::dummy_rx_byte_
                         0x2000'1411     0x1  Data  Wk  main.o [1]
 stm32u3::spi::master<stm32u3::spi::spi1, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)1, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)2, .speed=(stm32u3::gpio::speed)3, .af=(unsigned char)5}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)4, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)2, .speed=(stm32u3::gpio::speed)3, .pull=(stm32u3::gpio::pull)1, .af=(unsigned char)5}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)5, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)2, .speed=(stm32u3::gpio::speed)3, .af=(unsigned char)5}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)15, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)3}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)2, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)0, .exti=(stm32u3::gpio::exti_mode)1, .trigger=(stm32u3::gpio::exti_trigger)2}>, stm32u3::spi::master_config{.prescaler=(stm32u3::spi::prescaler)1073741824, .phase=(stm32u3::spi::phase)16777216, .polarity=(stm32u3::spi::polarity)0, .datasize=(stm32u3::spi::datasize)7, .nss=(stm32u3::spi::nss_mode)67108864, .drdy=(stm32u3::spi::drdy_level)0}>::dummy_tx_byte_
-                         0x800'1eae     0x1  Data  Wk  main.o [1]
+                         0x800'1ede     0x1  Data  Wk  main.o [1]
 stm32u3::spi::master<stm32u3::spi::spi1, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)1, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)2, .speed=(stm32u3::gpio::speed)3, .af=(unsigned char)5}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)4, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)2, .speed=(stm32u3::gpio::speed)3, .pull=(stm32u3::gpio::pull)1, .af=(unsigned char)5}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)5, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)2, .speed=(stm32u3::gpio::speed)3, .af=(unsigned char)5}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)15, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)3}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)2, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)0, .exti=(stm32u3::gpio::exti_mode)1, .trigger=(stm32u3::gpio::exti_trigger)2}>, stm32u3::spi::master_config{.prescaler=(stm32u3::spi::prescaler)1073741824, .phase=(stm32u3::spi::phase)16777216, .polarity=(stm32u3::spi::polarity)0, .datasize=(stm32u3::spi::datasize)7, .nss=(stm32u3::spi::nss_mode)67108864, .drdy=(stm32u3::spi::drdy_level)0}>::finish_dma(bool)
-                         0x800'3999    0x70  Code  Wk  main.o [1]
+                         0x800'39c1    0x70  Code  Wk  main.o [1]
 stm32u3::spi::master<stm32u3::spi::spi1, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)1, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)2, .speed=(stm32u3::gpio::speed)3, .af=(unsigned char)5}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)4, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)2, .speed=(stm32u3::gpio::speed)3, .pull=(stm32u3::gpio::pull)1, .af=(unsigned char)5}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)5, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)2, .speed=(stm32u3::gpio::speed)3, .af=(unsigned char)5}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)15, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)3}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)2, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)0, .exti=(stm32u3::gpio::exti_mode)1, .trigger=(stm32u3::gpio::exti_trigger)2}>, stm32u3::spi::master_config{.prescaler=(stm32u3::spi::prescaler)1073741824, .phase=(stm32u3::spi::phase)16777216, .polarity=(stm32u3::spi::polarity)0, .datasize=(stm32u3::spi::datasize)7, .nss=(stm32u3::spi::nss_mode)67108864, .drdy=(stm32u3::spi::drdy_level)0}>::init()
-                         0x800'1f99   0x16c  Code  Wk  main.o [1]
+                         0x800'1fc9   0x16c  Code  Wk  main.o [1]
 stm32u3::spi::master<stm32u3::spi::spi1, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)1, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)2, .speed=(stm32u3::gpio::speed)3, .af=(unsigned char)5}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)4, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)2, .speed=(stm32u3::gpio::speed)3, .pull=(stm32u3::gpio::pull)1, .af=(unsigned char)5}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)5, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)2, .speed=(stm32u3::gpio::speed)3, .af=(unsigned char)5}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)15, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)3}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)2, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)0, .exti=(stm32u3::gpio::exti_mode)1, .trigger=(stm32u3::gpio::exti_trigger)2}>, stm32u3::spi::master_config{.prescaler=(stm32u3::spi::prescaler)1073741824, .phase=(stm32u3::spi::phase)16777216, .polarity=(stm32u3::spi::polarity)0, .datasize=(stm32u3::spi::datasize)7, .nss=(stm32u3::spi::nss_mode)67108864, .drdy=(stm32u3::spi::drdy_level)0}>::pending_rx_data_
                         0x2000'13dc     0x4  Data  Wk  main.o [1]
 stm32u3::spi::master<stm32u3::spi::spi1, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)1, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)2, .speed=(stm32u3::gpio::speed)3, .af=(unsigned char)5}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)4, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)2, .speed=(stm32u3::gpio::speed)3, .pull=(stm32u3::gpio::pull)1, .af=(unsigned char)5}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)5, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)2, .speed=(stm32u3::gpio::speed)3, .af=(unsigned char)5}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)15, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)3}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)2, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)0, .exti=(stm32u3::gpio::exti_mode)1, .trigger=(stm32u3::gpio::exti_trigger)2}>, stm32u3::spi::master_config{.prescaler=(stm32u3::spi::prescaler)1073741824, .phase=(stm32u3::spi::phase)16777216, .polarity=(stm32u3::spi::polarity)0, .datasize=(stm32u3::spi::datasize)7, .nss=(stm32u3::spi::nss_mode)67108864, .drdy=(stm32u3::spi::drdy_level)0}>::pending_size_
@@ -590,38 +590,38 @@ stm32u3::spi::master<stm32u3::spi::spi1, stm32u3::gpio::pin<stm32u3::gpio::port_
 stm32u3::spi::master<stm32u3::spi::spi1, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)1, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)2, .speed=(stm32u3::gpio::speed)3, .af=(unsigned char)5}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)4, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)2, .speed=(stm32u3::gpio::speed)3, .pull=(stm32u3::gpio::pull)1, .af=(unsigned char)5}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)5, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)2, .speed=(stm32u3::gpio::speed)3, .af=(unsigned char)5}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)15, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)3}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)2, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)0, .exti=(stm32u3::gpio::exti_mode)1, .trigger=(stm32u3::gpio::exti_trigger)2}>, stm32u3::spi::master_config{.prescaler=(stm32u3::spi::prescaler)1073741824, .phase=(stm32u3::spi::phase)16777216, .polarity=(stm32u3::spi::polarity)0, .datasize=(stm32u3::spi::datasize)7, .nss=(stm32u3::spi::nss_mode)67108864, .drdy=(stm32u3::spi::drdy_level)0}>::start_dma_fn_
                         0x2000'13e0     0x4  Data  Wk  main.o [1]
 stm32u3::spi::master<stm32u3::spi::spi1, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)1, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)2, .speed=(stm32u3::gpio::speed)3, .af=(unsigned char)5}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)4, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)2, .speed=(stm32u3::gpio::speed)3, .pull=(stm32u3::gpio::pull)1, .af=(unsigned char)5}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)5, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)2, .speed=(stm32u3::gpio::speed)3, .af=(unsigned char)5}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)15, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)3}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)2, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)0, .exti=(stm32u3::gpio::exti_mode)1, .trigger=(stm32u3::gpio::exti_trigger)2}>, stm32u3::spi::master_config{.prescaler=(stm32u3::spi::prescaler)1073741824, .phase=(stm32u3::spi::phase)16777216, .polarity=(stm32u3::spi::polarity)0, .datasize=(stm32u3::spi::datasize)7, .nss=(stm32u3::spi::nss_mode)67108864, .drdy=(stm32u3::spi::drdy_level)0}>::transmit(std::span<unsigned char const, (unsigned int)4294967295>, unsigned int)
-                         0x800'49ad    0xb8  Code  Wk  main.o [1]
+                         0x800'49a9    0xb8  Code  Wk  main.o [1]
 stm32u3::spi::master<stm32u3::spi::spi1, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)1, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)2, .speed=(stm32u3::gpio::speed)3, .af=(unsigned char)5}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)4, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)2, .speed=(stm32u3::gpio::speed)3, .pull=(stm32u3::gpio::pull)1, .af=(unsigned char)5}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)5, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)2, .speed=(stm32u3::gpio::speed)3, .af=(unsigned char)5}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)15, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)3}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)2, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)0, .exti=(stm32u3::gpio::exti_mode)1, .trigger=(stm32u3::gpio::exti_trigger)2}>, stm32u3::spi::master_config{.prescaler=(stm32u3::spi::prescaler)1073741824, .phase=(stm32u3::spi::phase)16777216, .polarity=(stm32u3::spi::polarity)0, .datasize=(stm32u3::spi::datasize)7, .nss=(stm32u3::spi::nss_mode)67108864, .drdy=(stm32u3::spi::drdy_level)0}>::transmit_receive(std::span<unsigned char const, (unsigned int)4294967295>, std::span<unsigned char, (unsigned int)4294967295>, unsigned int)
-                         0x800'4a65    0xe0  Code  Wk  main.o [1]
+                         0x800'4a61    0xe0  Code  Wk  main.o [1]
 stm32u3::spi::master<stm32u3::spi::spi1, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)1, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)2, .speed=(stm32u3::gpio::speed)3, .af=(unsigned char)5}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)4, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)2, .speed=(stm32u3::gpio::speed)3, .pull=(stm32u3::gpio::pull)1, .af=(unsigned char)5}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)5, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)2, .speed=(stm32u3::gpio::speed)3, .af=(unsigned char)5}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)15, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)3}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)2, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)0, .exti=(stm32u3::gpio::exti_mode)1, .trigger=(stm32u3::gpio::exti_trigger)2}>, stm32u3::spi::master_config{.prescaler=(stm32u3::spi::prescaler)1073741824, .phase=(stm32u3::spi::phase)16777216, .polarity=(stm32u3::spi::polarity)0, .datasize=(stm32u3::spi::datasize)7, .nss=(stm32u3::spi::nss_mode)67108864, .drdy=(stm32u3::spi::drdy_level)0}>::waiting_drdy_
                         0x2000'1410     0x1  Data  Wk  main.o [1]
 stm32u3::swo::OStream<(unsigned char)0>& stm32u3::swo::OStream<(unsigned char)0>::operator <<<unsigned int>(unsigned int)
-                         0x800'1eb1    0xb0  Code  Wk  main.o [1]
+                         0x800'1ee1    0xb0  Code  Wk  main.o [1]
 stm32u3::swo::OStream<(unsigned char)0>& stm32u3::swo::OStream<(unsigned char)0>::operator <<<unsigned long long>(unsigned long long)
-                         0x800'32d1    0xbc  Code  Wk  main.o [1]
+                         0x800'3905    0xbc  Code  Wk  main.o [1]
 stm32u3::swo::OStream<(unsigned char)0>::operator <<(stm32u3::swo::HexTag)
-                         0x800'2b29    0x90  Code  Wk  main.o [1]
+                         0x800'2b59    0x90  Code  Wk  main.o [1]
 stm32u3::swo::Stimulus<(unsigned char)0>::wait_port()
-                         0x800'3b99    0x3e  Code  Wk  main.o [1]
+                         0x800'3bc1    0x3e  Code  Wk  main.o [1]
 stm32u3::swo::Stimulus<(unsigned char)0>::write(void const *, unsigned int)
-                         0x800'1e49    0x66  Code  Wk  main.o [1]
+                         0x800'1e79    0x66  Code  Wk  main.o [1]
 stm32u3::swo::format::utoa_hex(unsigned int, char *, bool)::string
-                         0x800'59e4    0x14  Data  Wk  main.o [1]
+                         0x800'5a14    0x14  Data  Wk  main.o [1]
 stm32u3::swo::format::utoa_hex(unsigned int, char *, bool)::string (instance 2)
-                         0x800'59f8    0x14  Data  Wk  main.o [1]
+                         0x800'5a28    0x14  Data  Wk  main.o [1]
 stm32u3::swo::stream<(unsigned char)0>
                         0x2000'140e     0x1  Data  Wk  main.o [1]
 stm32u3::swo::swo_lock()
-                         0x800'338d     0x2  Code  Wk  main.o [1]
-strlen                   0x800'1f61          Code  Gb  strlen.o [5]
+                         0x800'3301     0x2  Code  Wk  main.o [1]
+strlen                   0x800'1f91          Code  Gb  strlen.o [5]
 test_memory_mapped_addresses()::addresses
-                         0x800'1538    0x14  Data  Lc  main.o [1]
+                         0x800'1544    0x14  Data  Lc  main.o [1]
 void stm32u3::fdcan::Driver<stm32u3::fdcan::Fdcan1Instance, (unsigned int)8>::drain<(unsigned int)0>()
-                         0x800'3a09    0xc8  Code  Wk  main.o [1]
+                         0x800'3a31    0xc8  Code  Wk  main.o [1]
 void stm32u3::fdcan::Driver<stm32u3::fdcan::Fdcan1Instance, (unsigned int)8>::drain<(unsigned int)1>()
-                         0x800'3ad1    0xc8  Code  Wk  main.o [1]
+                         0x800'3af9    0xc8  Code  Wk  main.o [1]
 void stm32u3::spi::master<stm32u3::spi::spi1, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)1, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)2, .speed=(stm32u3::gpio::speed)3, .af=(unsigned char)5}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)4, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)2, .speed=(stm32u3::gpio::speed)3, .pull=(stm32u3::gpio::pull)1, .af=(unsigned char)5}>, stm32u3::gpio::pin<stm32u3::gpio::port_b, (unsigned int)5, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)2, .speed=(stm32u3::gpio::speed)3, .af=(unsigned char)5}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)15, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)1, .speed=(stm32u3::gpio::speed)3}>, stm32u3::gpio::pin<stm32u3::gpio::port_a, (unsigned int)2, stm32u3::gpio::pin_config{.mode=(stm32u3::gpio::mode)0, .exti=(stm32u3::gpio::exti_mode)1, .trigger=(stm32u3::gpio::exti_trigger)2}>, stm32u3::spi::master_config{.prescaler=(stm32u3::spi::prescaler)1073741824, .phase=(stm32u3::spi::phase)16777216, .polarity=(stm32u3::spi::polarity)0, .datasize=(stm32u3::spi::datasize)7, .nss=(stm32u3::spi::nss_mode)67108864, .drdy=(stm32u3::spi::drdy_level)0}>::start_dma_impl<stm32u3::gpdma::config{.request=(unsigned int)7, .dir=(stm32u3::gpdma::direction)1, .src_width=(stm32u3::gpdma::width)0, .dst_width=(stm32u3::gpdma::width)0, .src_inc=(stm32u3::gpdma::increment)1, .dst_inc=(stm32u3::gpdma::increment)0, .prio=(stm32u3::gpdma::priority)1}, stm32u3::gpdma::config{.request=(unsigned int)6, .dir=(stm32u3::gpdma::direction)2, .src_width=(stm32u3::gpdma::width)0, .dst_width=(stm32u3::gpdma::width)0, .src_inc=(stm32u3::gpdma::increment)0, .dst_inc=(stm32u3::gpdma::increment)1, .prio=(stm32u3::gpdma::priority)1}>()
-                         0x800'526d   0x160  Code  Wk  main.o [1]
+                         0x800'529d   0x160  Code  Wk  main.o [1]
 
 
 [1] = C:\Documents\IAREWARM\thermomodule_without_trustzone\Debug\Obj
@@ -631,7 +631,7 @@ void stm32u3::spi::master<stm32u3::spi::spi1, stm32u3::gpio::pin<stm32u3::gpio::
 [5] = rt7M_tl.a
 [6] = shb_l.a
 
-  21'152 bytes of readonly  code memory
+  21'200 bytes of readonly  code memory
    2'087 bytes of readonly  data memory
    6'170 bytes of readwrite data memory
 
