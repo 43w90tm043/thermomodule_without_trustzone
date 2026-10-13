@@ -82,5 +82,5 @@
             </col-widths>
         </WIN_EXCEPTION_VIEWER>
     </WindowStorage>
-    <VisibleWindows>WIN_CALL_STACK WIN_DEBUG_LOG WIN_EXCEPTION_VIEWER WIN_TERM_IO WIN_WORKSPACE</VisibleWindows>
+    <VisibleWindows>WIN_DEBUG_LOG WIN_EXCEPTION_VIEWER WIN_TERM_IO WIN_WORKSPACE</VisibleWindows>
 </Project>

@@ -143,7 +143,6 @@ enum class Kind : std::uint8_t
 
 // ============================================================================
 // CAN protocol ID
-//
 // 28..26 : priority       3 bits
 // 25..24 : kind           2 bits
 // 23..14 : message ID    10 bits

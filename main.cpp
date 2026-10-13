@@ -242,25 +242,43 @@ static void handle_hcan_event(const HcanProtocol::Event& event)
     }
 }
 
+
 static void service_can()
 {
-      static uint32_t last_ev = 0;
-     const auto ev = fdcan::Fdcan1::take_events();
-     if (ev != fdcan::BusEvent::None && fdcan::to_underlying(ev) != last_ev) {
-        swo::out << "can events=" << swo::hex(fdcan::to_underlying(ev)) << "\r\n";
+    const auto events = fdcan::Fdcan1::take_events();
 
-        if (fdcan::has(ev, fdcan::BusEvent::BusOff))
+    if (events != fdcan::BusEvent::None)
+    {
+        swo::out << "CAN events="
+                 << swo::hex(fdcan::to_underlying(events))
+                 << "\r\n";
+
+        if (fdcan::has(events, fdcan::BusEvent::BusOff))
         {
             fdcan::Fdcan1::restart_after_bus_off();
-        } }
- 
-
-    // Received frames (bounded by the queue depth).
-    while (const auto rx = fdcan::Fdcan1::receive())
-    {
-        print_can_frame(*rx);
-        handle_hcan_event(g_hcan.receive(to_hcan(*rx), clock::millis().count()));
+        }
     }
+
+
+constexpr uint32_t k_max_can_frames_per_iteration = 8U;
+
+for (uint32_t i = 0; i < k_max_can_frames_per_iteration; ++i)
+{
+    const auto rx = fdcan::Fdcan1::receive();
+
+    if (!rx)
+    {
+        break;
+    }
+
+    print_can_frame(*rx);
+
+    const auto event = g_hcan.receive(
+        to_hcan(*rx),
+        clock::millis().count());
+
+    handle_hcan_event(event);
+}
 }
 
 // ============================================================================
@@ -364,7 +382,7 @@ static void service_temperature()
     break;
 
         case sample_status::settling:
-            break; // expected after a mux change, not an error
+            break; 
 
         case sample_status::sensor_fault:
             swo::out << "pt1000 sensor fault (open/short/out of range)\r\n";
@@ -416,8 +434,6 @@ int main()
         swo::out << "fdcan init failed, err=" << static_cast<uint32_t>(e) << "\r\n";
     }
     
-    static uint32_t g_busy_cycles = 0;
-    static uint32_t g_window_start = clock::cycles();
     clock::systick_irq_disable();
 
     wdg::Iwdg::init<
@@ -429,32 +445,11 @@ int main()
 
     while (true)
     {
-        const uint32_t t0 = clock::cycles();
-
-        service_temperature();
-        service_can();
-        g_hcan.tick(clock::millis().count(), k_hcan_tick_period_ms);
-        wdg::Iwdg::refresh();
-
-        g_busy_cycles += clock::cycles_elapsed(t0);
-        if (clock::cycles_elapsed(g_window_start) >= SystemCoreClock)
-        {
-            const uint64_t busy_percent_x100 =
-                (static_cast<uint64_t>(g_busy_cycles) * 10000ULL) /
-                static_cast<uint64_t>(SystemCoreClock);
-
-            swo::out << "cpu busy in while(true)="
-                     << (busy_percent_x100 / 100U)
-                     << "."
-                     << (busy_percent_x100 % 100U < 10 ? "0" : "")
-                     << (busy_percent_x100 % 100U)
-                     << "%\r\n";
-
-            g_busy_cycles = 0;
-            g_window_start = clock::cycles();
-        }
-        
-        //__WFI();
+            service_temperature();
+            service_can();
+            g_hcan.tick(clock::millis().count(), k_hcan_tick_period_ms);
+            wdg::Iwdg::refresh();
+            __WFI();
     }
 }
 
