@@ -2,6 +2,8 @@
 
 **STM32U385CG · C++20 · Bare-Metal · CMSIS · CAN FD**
 
+<img width="1080" height="1003" alt="photo_2026-10-13_18-10-04" src="https://github.com/user-attachments/assets/111e6e5c-69af-45de-a3f9-f8a10d2285f6" />
+
 Custom embedded temperature measurement system featuring a dedicated analog front end, asynchronous peripheral drivers, and a proprietary CAN FD communication protocol.
 
 ## Overview
