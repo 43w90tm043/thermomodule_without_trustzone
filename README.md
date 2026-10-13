@@ -148,6 +148,14 @@ This project demonstrates practical work in:
 * Mixed-signal hardware and power architecture
 * Firmware architecture and version control
 
+  ## Author
+
+**Parviz Nurchazdinov** — Embedded Systems Developer
+
+* **LinkedIn:** [parviz-nurchazdinov](https://www.linkedin.com/in/parviz-nurchazdinov-0a52833a3/)
+* **Email:** [keklollolkek948@gmail.com](mailto:keklollolkek948@gmail.com)
+
+
 ## Project Status
 
 **Work in progress.** Features and performance targets are documented according to their current implementation and verification status.
