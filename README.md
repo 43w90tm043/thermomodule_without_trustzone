@@ -150,7 +150,7 @@ This project demonstrates practical work in:
 
   ## Author
 
-**Parviz Nurchazdinov** — Embedded Systems Developer
+**Parviz Nurchazdinov** — full-stack electronic engineer
 
 * **LinkedIn:** [parviz-nurchazdinov](https://www.linkedin.com/in/parviz-nurchazdinov-0a52833a3/)
 * **Email:** [keklollolkek948@gmail.com](mailto:keklollolkek948@gmail.com)
